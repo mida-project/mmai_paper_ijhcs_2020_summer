@@ -1,0 +1,103 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Artificial Intelligence (AI) has the potential to fundamentally transform many application domains~\cite{ghahramani2015probabilistic}.
+One notable example is clinical radiology \cite{choy2018current, hosny2018artificial}, for which a growing number of AI-based systems have been proposed for lesion detection and segmentation, two fundamental steps to accomplish the diagnosis and treatment planning \cite{graffy2019automated, kooi2017large, lakhani2017deep, liang2019deep}.
+The AI application within radiology can provide an extraction from large number of medical imaging features using data-characterization.
+This synergy between AI and medical imaging is currently known as {\it radiomics}~\cite{lambin2012radiomics} and aims to develop methods that automatically analyze large amounts of data and extract meaningful features to support diagnosis~\cite{Ruddle:2016:DEI:2872314.2834117} and clinical decision making~\cite{Park:2015:TOA:2737795.2656213}.
+
+Many studies have reported robust and relevant findings \cite{aerts2017data} in {\it radiomics}.
+Specifically, {\it radiomics} can provide detailed quantifications of medical imaging characteristics of underlying tissues.
+Without hand-designed features~\cite{ker2018deep}, the field is including significant hierarchical relationships within the data automatically discovered.
+This information can be used throughout the clinical care path to improve diagnosis and treatment planning, as well as assess treatment response.
+However, a growing number of these studies also suffer from deficient experimental or analytic designs~\cite{aerts2017data}.
+Thus, failing to include a more holistic understanding of the clinical context~\cite{Sultanum:2018:MTP:3173574.3173996}.
+
+While AI is changing the paradigm both in terms of visualization and interaction in the {\it radiomics} workflow, it is still not clear neither how it influences radiologists, nor what is the best approach to maximize the benefits of this Human-AI collaboration \cite{Kocielnik:2019:YAI:3290605.3300641}.
+Indeed, existing AI approaches typically assume that there is a single correct answer for any given input, lacking mechanisms to incorporate diverse human perspectives.
+This assumption is prevalent in various steps of the AI pipeline, including model development and system design.
+The goal of this work is to study the impact of AI assistance on the diagnostic performance of radiologists across several\footnotemark[1] clinical institutions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[1]{Number of clinicians and institutions that supported our project:
+12 clinicians of \href{https://hff.min-saude.pt}{Hospital Professor Doutor Fernando Fonseca (HFF)}; % HFF
+10 clinicians of \href{https://www.ipolisboa.min-saude.pt}{Instituto Portugu\^{e}s de Oncologia (IPO) de Lisboa (IPO-Lisboa)}; %IPOL
+2 clinicians of \href{https://www.chln.min-saude.pt}{Hospital de Santa Maria (HSM)}; %HSM
+9 clinicians of \href{http://www.ipocoimbra.min-saude.pt}{IPO de Coimbra (IPO-Coimbra)}; %IPOC
+1 clinician of \href{http://www.madeiramedicalcenter.pt}{Madeira Medical Center (MMC)}; and %MMC
+1 clinician of \href{https://www.sams.pt}{Serviços de Assist\^{e}ncia M\'{e}dico-Social do Sindicato dos Banc\'{a}rios do Sul e Ilhas (SAMS)}; %SAMS
+8 clinicians of \href{http://www.chbm.min-saude.pt}{Hospital do Barreiro (HB)}; %HB
+1 clinician of \href{https://www.chporto.pt}{Hospital de Santo Ant\'{o}nio (HSA)}; %HSA
+1 clinician of \href{https://www.jcc.pt}{Jo\~{a}o Carlos Costa Diagnostic Imaging (JCC)}. %JCC
+We collected the patient data from the first institution ({\it i.e.}, HFF).
+Then, we applied our User Testing and Analysis (UTA) to the full list of clinical institutions and clinicians.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We focus on the breast screening problem, in which radiologists typically require {\it Multimodality}\footnotemark[2] (MG - MammoGraphy, US - UltraSound, and MRI - Magnetic Resonance Imaging) to detect suspicious regions (lesion) in the breast.
+This multi-modal setup is very challenging, not only due to the large amount of data being processed, but also for manipulation and visualization of heterogeneous data.
+To this end, we developed the {\it BreastScreening} - a multi-modal {\it AI-Assisted} medical imaging framework  that allows the radiologist to view, manipulate and classify images in an effortless way, while also providing diagnostic recommendations.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[2]{{\it Multimodality}: our proposal diagnostic technique for the patient treatment via (1) MammoGraphy (MG); (2) UltraSound (US); (3) Magnetic Resonance Imaging (MRI); (4) text; and (5) annotations. MG modality is a specific type of breast imaging that uses low-dose X-Rays to provide earlier cancer detection. In MG, two views are taken, concretely CranioCaudal (CC) view and MedioLateral Oblique (MLO) view. US modality is an imaging test that sends high-frequency sound waves through your breast and converts them into images on a viewing screen. MRI uses radio waves and strong magnets to make detailed pictures of the inside of the breast. Both text and annotations are inputted by the user. The text represents the {\it dataset} of co-variables (\href{https://mimbcd-ui.github.io/dataset-uta7-co-variables}{mimbcd-ui.github.io/dataset-uta7-co-variables}) that each clinician can input in our system. The annotations are the groundtruth (\href{https://mimbcd-ui.github.io/dataset-uta7-annotations}{mimbcd-ui.github.io/dataset-uta7-annotations}) of the lesions that clinicians label on the image, so that the algorithms can learn with clinicians. A sample {\it dataset} of the used medical images (\href{https://mimbcd-ui.github.io/dataset-uta7-dicom}{mimbcd-ui.github.io/dataset-uta7-dicom}) is also provided. Furtheremore, we provide a link (\href{https://mida-project.github.io/prototype-multi-modality-assistant}{mida-project.github.io/prototype-multi-modality-assistant}) for the demo of the \href{https://github.com/MIMBCD-UI/meta/wiki/User-Research}{UTA7} main scenario. For the source code of the prototype, another link (\href{https://github.com/mida-project/prototype-multi-modality-assistant}{github.com/mida-project/prototype-multi-modality-assistant}) is provided with instructions and documentation.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Motivation}
+
+Breast cancer is one of the most diagnosed cancers worldwide~\cite{desantis2016breast, ferlay2013cancer, torre2015global}. In fact, breast cancer is the second leading cause of death from cancer in women~\cite{doi:10.3322/caac.21492}.
+Early detection is one of the most effective ways to increase the survival rate for this disease~\cite{saadatmand2015influence, welch2016breast}.
+
+Screening mammography aims to identify breast cancer at earlier stages of the disease, when treatment can be more successful~\cite{mckinney2020international}.
+However, two main difficulties arise.
+First, the amount of data to be processed has been increasing significantly and greatly surpasses the throughput capabilities of the radiologists.
+Second, processing such amount of multi-modal data in timely fashion without compromising the reliability of the diagnosis which is very challenging.
+These difficulties have been the driving force behind the recent trend in {\it radiomics} and the integration of AI techniques into medical imaging.
+
+In the context of breast cancer, the requirements for multi-modal data have a significant impact on the clinical workflow.
+Although MG is the primary imaging modality for breast screening, it may be insufficient to reach a correct diagnosis.
+For instance, in dense breasts (Figure~\ref{fig:fig001} {\bf B}, {\bf D}), the lesions can hardly be seen, while in adipose breasts, lesion visualization is clear (Figure~\ref{fig:fig001} {\bf A}, {\bf C}).
+Thus, for dense breasts, other modalities constitute a valuable information to complement the diagnosis.
+Figure \ref{fig:fig001} {\bf E}, {\bf F} depicts the US and Dynamic Contrast Enhanced (DCE)-MRI modalities, where the lesions can be easily viewed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{fig001}
+\caption{Illustration of the current clinical setup. Adipose breast in mammography where the lesions are easily viewed (A, C). Dense breast where is not possible to view the lesions (B, D). In the latter scenario, the radiologists resort to other image modalities such as US (E) and DCE-MRI (F), to complement the information that is missing in (B,D).}
+\label{fig:fig001}
+\end{figure}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Support for visualization of multi-modal images and {\it AI techniques} can provide improvements and insights in the breast screening radiology workflow.
+Our goal is to evaluate the impact of the integration of these techniques in the context of the breast cancer diagnosis using the {\it BreastScreening} tool.
+Specifically, we focus on how {\it Multimodality} and {\it AI assistance} could add a value in the {\it radiomics} medical workflow~\cite{calisto2017mimbcdui}.
+Our answers to this problem include usage and acceptance by physicians and the improvement of workflow efficiency and quality, as well as reduction and prevention of errors and variability of diagnosis.
+
+\subsection{Research Goals}
+
+A vital component of this research was to access a significant number of clinical settings and radiologists.
+We have established the foundations of our research via a human-centered design process and following the guidelines for Human-AI interaction~\cite{amershi2019guidelines, Cai:2019:HTC:3290605.3300234, Kocielnik:2019:YAI:3290605.3300641}, including:
+i) findings from a user study in nine health institutions, encompassing {\it in-situ} observations and interviews~\cite{Lim:2019:DDI:3319806.3301427, Sarcevic:2012:TET:2240156.2240161}, and grounded by related work; which informed
+ii) a list of design recommendations for medical imaging design, including temporal awareness, image processing, {\it Multimodality}, adoption, usage and trust; leading to
+iii) findings from an evaluation study of {\it BreastScreening}, a proof-of-concept prototype we developed to support the clinical translation of {\it radiomics}, validated by 45 physicians; and finally
+iv) evidence from the impact of a {\it Multimodality} and {\it AI-assisted} strategy in diagnosing and severity classification of lesions.
+
+\hfill
+
+\noindent
+In particular, focusing on the integration of {\it Multimodality} and {\it AI techniques} in {\it BreastScreening} clinical workflow, we formulate the following three high-level questions:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+\begin{enumerate}
+\item {\bf RQ1.} What is the workflow impact of {\it AI assistance} for avoiding different types of diagnostics?
+\item {\bf RQ2.} What are the design techniques for setting appropriate clinician expectations of {\it AI assistance} and how to improve diagnostic interpretability?
+\item {\bf RQ3.} What is the impact of expectation-setting intervention techniques on satisfaction and acceptance of {\it AI assistance} in radiology?
+\end{enumerate}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Diagnosis can be defined as mapping between visualization of the image and the respective scalar BI-RADS (that should be as accurate as possible), which reflects the severity of the examination diagnosis.
+The above research questions are placed in a context to encompass the  richness of each modality, especially in the {\it Current} vs. {\it AI-Assisted} medical imaging scenarios discussed in the evaluation section.

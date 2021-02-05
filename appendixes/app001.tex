@@ -1,0 +1,43 @@
+% #############################################################################
+% This is Appendix A
+% !TEX root = main.tex
+% #############################################################################
+
+\section{Appendix}
+\label{app:app001}
+
+\hfill
+
+\subsection{DenseNet Steps}
+\label{app:steps}
+
+\hfill
+
+\noindent
+The DenseNet steps are as follows:
+
+\hfill
+
+\begin{enumerate}
+\item The DenseNet is pre-trained with the ImageNet model that contains roughly 1.2 millions images. This gives generalization capabilities to new datasets.
+\item Next, we remove the last layer of the DenseNet (that contains a large number of classes, about 1000 classes or end-nodes) and replace it by a fully connected layer containing now three nodes. Each node of the network corresponds to one of the following classes: (i) low severity (Class 1: BIRADS <= 1 ), (ii) medium severity  (Class 2:  1 < BIRADS <= 3) and (iii) high severity (Class 3: BIRADS > 3). Thus, we have a DenseNet with three nodes in the last layer.
+\hfill
+\item Now, the pre-trained DenseNet goes through a process of fine-tuning in our breast dataset. The dataset comprises 1125 training images ({\it i.e.}, MG in both CC and MLO views, US, and MRI). Notice that here, we have 338 cases or patients (Section~\ref{sec:procedure}). The larger number of training images, when compared to the number of patients, stems from the fact that one patient may have more than one image.
+\hfill
+\item We split the above dataset in the following way: 80\% for training and the remaining 20\% for testing. In this partition, we guarantee that each set (training and test) are properly balanced, that is, each set contains samples that belong to all classes (recall that there are three classes as mentioned in Section~\ref{sec:procedure}, see also point 1) and all modalities ({\it i.e.}, MG, US, and MRI). Therefore, the experiments take into consideration the multimodality.
+\hfill
+\item The pre-training follows a supervised learning strategy. Specifically, during the training we provide the image, as well as the corresponding label, that is, the classification in one of the three classes for the image. This classification ({\it i.e.}, ground-truth) is provided by a set of eight radiologists (Section~\ref{sec:methods}). Say that this training stage gives to the DenseNet the ability to establish associations between the morphology of the lesion (image) and its severity (classification label).
+\hfill
+\item Finally, we use the held-out test set to measure the performance of the DenseNet. An accuracy of 98.2\% was obtained in this test set.
+\hfill
+\item As a final note, we should mention that the three patients (as mentioned in Section~\ref{sec:participants}) are obtained from the test set as mentioned above (see point 4). 
+From the above the number of test samples is high, however, only three samples are taken  for the experiments purpose. Thus, the training and testing phases take into account a large number of samples.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{tables/tab004}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{tables/tab003}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

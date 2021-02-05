@@ -1,0 +1,131 @@
+\section{Evaluation}
+\label{sec:methods}
+
+We conducted an evaluation\footnotemark[5] of {\it BreastScreening} simulating real world conditions with 45 clinicians in nine different clinical institutions.
+Our goal was to quantitatively and qualitatively assess the proposed design principles that the {\it BreastScreening} embodies and to understand how these principles would work in practice.
+The experimental setup aimed at testing two conditions: \textbf{Cond. C1} - {\it Current}, {\it i.e.}, a {\it Multimodality} without any {\it AI-Assisted} technique; \textbf{Cond. C2} - {\it Multimodality} taking advantage of the  {\it AI-Assisted} ({\it e.g.}, DenseNet~\cite{maicas2019unsupervised}), supporting clinician's second opinion and autonomous patient diagnostic.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[5]{A link (\href{https://mida-project.github.io/uta7-statistical-analysis-charts/}{mida-project.github.io/uta7-statistical-analysis-charts}) from the statistical analysis is hereby provided, so that the community can better understand and replicate our results. In this link, we provide the information visualization via graphical charts of the achieved results for usability, BI-RADS severities, and clinicians' time performance, between others.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent
+For each condition we defined three classes of patients:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item {\bf Class 1}: patients such that BIRADS $\leq$ 1 (low severity);
+\item {\bf Class 2}: patients such that 1 $<$ BIRADS $\leq$ 3 (medium severity);
+\item {\bf Class 3}: patients such that BIRADS $>$ 3 (high severity);
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The exams were previously annotated by eight radiologists and classified with a BIRADS severity from an expert doctor.
+The expert is the head of the radiologist services of HFF clinical institution.
+
+\subsection{Participants}
+\label{sec:participants}
+
+We asked participants to practice with three predefined patients selected from the three above classes. To accomplish this, we randomly select each patient ({\it i.e.}, {\bf P1}, {\bf P2} and {\bf P3}) from each class ({\it i.e.}, {\bf Class 1}, {\bf Class 2} and {\bf Class 3}), respectively.
+Then, we asked participants to diagnose each patient.
+A natural expectation is that the {\it AI-Assistant} would minimize the time required and accuracy ({\it e.g.}, improving False-Positive or False-Negative values).
+
+Our study involved 45 clinicians (Table~\ref{tab:tab003} of Appendix~\ref{app:app001}), recruited on a volunteer basis from a broad range of clinical scenarios, including nine different health institutions (two public hospitals, two cancer institutes and two private clinics).
+From the demographic questionnaires:
+24.4\% of the clinicians have between 31 and 40 years of practical experience (seniors);
+31.1\% have between 11 and 30 years of experience (middles);
+17.8\% have between 6 and 10 years of experience (juniors); and
+26.7\% have limited experience (interns).
+Interviews were conducted in a semi-structured fashion taking about 30 minutes.
+Overall, 57 days were spent on the clinical institutions for the observation process and six months for the classification.
+
+\subsection{Procedure}
+\label{sec:procedure}
+
+This section describes the procedure required to reject (or accept) the proposed BI-RADS provided by the {\it AI-Assistant} \cite{https://doi.org/10.13140/rg.2.2.16566.14403/1}.
+At this stage, participants will interact with the {\it Breast\-Screening} tool using our multi-modal {\em dataset}. We have a total of 338 cases. 
+In the dataset there exists cases where the patient does not have all the image modalities (recall Fig. 2 where the acquisition may finish before all the modalities are available).
+Thus, we define the following requirements to conduct our analysis.
+
+\hfill
+
+\noindent
+The requirements are as follows:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+\item All patients must have each of the three available modalities;
+\item All patients were annotated and classified by radiologists team of HFF;
+\item The patients were grouped in low, medium and high severity according to the BIRADS;
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The above procedure allowed us to obtain a set of 289 cases.
+Notice that the {\it dataset} is partitioned according to the three classes above mentioned.
+The first task was to fill the consent form.
+The second task was the user characterization form, providing us demographic data about participants.
+Next, each participant accessed our system via the web browser.
+We assigned each of the 45 clinicians, three patients ({\it e.g.}, {\bf P1}, {\bf P2} or {\bf P3}), for diagnosis.
+Thus, for each clinician it was assigned one patient with low severity, one with medium severity and another one with high severity.
+
+When analysing the patients, the main task was to {\it accept} or {\it reject} the proposed BIRADS value provided by the {\it AI-Assistant}.
+In case of {\it rejecting} the proposed value, participants were asked to provide a new BIRADS value.
+We also provided an {\it explain} functionality that could be used to inform participants concerning where and how much sever the lesions are (Figure \ref{fig:fig006}).
+This setup will be used to support our results (Section~\ref{sec:results}).
+
+Participants were given unlimited time to familiarise with the system.
+Every interaction was shown by the facilitator and upcoming questions were clarified.
+In the end, for each participant we applied both SUS\footnotemark[6]~\cite{Tyllinen:2016:WNN:2858036.2858570} and NASA-TLX\footnotemark[7]~\cite{grier2015high, ramkumar2017using} scales on two different questionnaires, respectively.
+Finally, a {\it post-task} questionnaire~\cite{https://doi.org/10.13140/rg.2.2.16566.14403/1} was carried out.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[6]{For SUS scores, we used a 5 item scale. The scores range from 1 - "{\bf Strong Disagree}" to 5 - "{\bf Strong Agree}". The mean across all individual questionnaires was computed over studies. We provide an available {\it dataset} (\href{https://mimbcd-ui.github.io/dataset-uta7-sus/}{mimbcd-ui.github.io/dataset-uta7-sus}) from our SUS data.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[7]{For NASA-TLX scores, we used a 20 item scale. The scores range from 1 - "{\bf Very Low}" to 20 - "{\bf Very High}". Again, we provide an available {\it dataset} (\href{https://mimbcd-ui.github.io/dataset-uta7-nasa-tlx/}{mimbcd-ui.github.io/dataset-uta7-nasa-tlx}) from our NASA-TLX data.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Analysis}
+
+The study of {\it BreastScreening} included both quantitative and qualitative analysis.
+For the qualitative analysis\footnotemark[8] we tracked user interactions across our system, using \href{https://www.hotjar.com/}{Hotjar}~\cite{liikkanen2017data}.
+To record the task activities and the interview, we resorted to screen and sound recordings.
+Finally, we used \href{https://www.tobiipro.com/product-listing/tobii-pro-sdk/}{Tobii Pro SDK}~\cite{chatelain2018evaluation}, for eye tracking and gaze information.
+For the quantitative analysis\footnotemark[9] we used the well known SUS\footnotemark[10]~\cite{Tyllinen:2016:WNN:2858036.2858570} scale to objectively measure the usability of the {\it AI-Assistant} setup to answer {\bf RQ3}.
+To measure the effectiveness performance of the {\it AI-Assistant} introduction, we used the NASA-TLX\footnotemark[11]~\cite{grier2015high, ramkumar2017using}, assessing the perceived workload to answer {\bf RQ1}.
+We also measured the diagnostic to find correlations with the breast severity.
+Finally, we measured the number of False-Positives and False-Negatives.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[8]{By {\bf qualitative analysis} we mean the observational findings from clinicians that identify and answer our design methods and features to use. We divide the {\bf qualitative data} into two groups: (1) {\bf qualitative attitudinal data}; and (2) {\bf qualitative behavioral data}. The first one, can be defined as clinician's thoughts, beliefs and self-reported needs obtained from our user interviews, focus groups and affinity diagrams.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[9]{By {\bf quantitative analysis} we mean the use of metrics to measure tasks, which will reflect on the task performance, efficiency and efficacy. Measuring {\bf quantitative data} offer an indirect assessment of the design usability as well.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[10]{Regarding {\bf SUS} scores, we provide clinicians an individual questionnaire on a scale that is easily understood. We used {\bf SUS} to measure the {\it Assistant} usability. The scale provides helpful information about a clinician's takeaways and overall experience during diagnostic.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[11]{We used the {\bf NASA-TLX} scale to measure the perceived workload required by the complex, highly demanding tasks of medical imaging diagnosis on the radiology room.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Although SUS is more regularly used as single score, in this study we used it as individual questionnaires.
+Individual SUS scores have typically negative skew~\cite{lewis2018system}, but the mean sample values are usually normal distributed.
+Therefore, we took advantage of this statistical behaviour to compute our quantitative analysis (Section~\ref{sec:quantitative}).
+
+On the other hand, we used the basic NASA-TLX scores, which are highly reliable~\cite{ramkumar2017using}.
+NASA-TLX questionnaire consistently exhibits high reliability, user acceptance and low inter-subject variability to measure workload.
+In our work, NASA-TLX was used to identify clinicians' workload during various stages of the workflow.
+
+Clinicians were asked to complete both SUS and NASA-TLX scores.
+In the end of the three patients diagnostic, a {\it post-task} questionnaire was performed.
+Rating the {\it Assistant} experience and performance during the diagnostic time period, was our goal with those questionnaires.
+
+The above measurements are part of the quantitative analysis with a comparison between {\it Current} and {\it AI-Assistant} setups.
+With that comparison, we will answer both {\bf RQ1} and {\bf RQ2} providing evidence for the impact and expectations of {\it AI assistance} on the RR workflow.
+For the qualitative analysis, we extract opinion-based feedback from the recorded audio.
+The received feedback was translated to a set of sentences counting the number of clinicians who had the same similar opinion.

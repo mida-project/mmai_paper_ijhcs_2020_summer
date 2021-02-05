@@ -1,0 +1,188 @@
+\section{Design Keys}
+\label{sec:environment}
+
+The process that leads to the development of the {\it BreastScreening-AI} prototype~\cite{https://doi.org/10.13140/rg.2.2.29816.70409} included a holistic understanding of the clinical context of {\it radiomics} in breast screening.
+We were specifically interested in the use of several modalities and {\it AI assistance} to detect and classify lesions.
+We conducted quantitative and qualitative studies in nine health institutions to understand the medical practices surrounding {\it radiomics} in breast cancer, including the classifications of the lesion severity using the BI-RADS~\cite{https://doi.org/10.13140/rg.2.2.36306.86725} score.
+
+TODO
+
+\clearpage
+
+\subsection{Radiology Room}
+
+The main radiology room workflow (Figure~\ref{fig:fig002}) can be defined as a three-stage process:
+(1) {\it examination};
+(2) {\it diagnosis}; and
+(3) {\it report}.
+The {\it examination} stage refers to the time spent on the examination and processing of the patient records ({\it e.g.}, demographics, clinical records or past medical images).
+For instance, the radiologist receives this information from both the hospital and radiology information systems.
+The second stage ({\it diagnosis}), corresponds to the time that the clinician spends on the interpretation and diagnosis of the patient exams.
+In this phase, the clinician interacts with a Picture Archiving and Communication System (PACS) retrieving the {\it Modality Worklist} (Figure \ref{fig:fig004}) from the Radiology Information System.
+Finally, in the last stage it refers to the time spent on reporting her/his conclusions after the patient's medical images analysis.
+In all the above stages, medical images are used with different purposes, as described next.
+
+For the {\it examination} stage, the clinician relates medical imaging analysis with other exams and medical records, {\em i.e.}, the clinical situation of the patient.
+The {\it examination} of the patient is sometimes supported by other systems that give the clinician a more reliable source of information.
+Most of the information sought is stored in various formats, including notes from the referring physician (the doctor who sent the patient to the radiology department), past exams and respective reports, and second opinion from other clinicians.
+
+Regarding the {\it diagnosis}, this is the most crucial from our perspective, since it is the one that most contributes to the treatment choice.
+The {\it diagnosis} stage includes image classification on a BI-RADS scale.
+During this stage, we observed clinicians on the diagnosis process, namely accessing several medical images.
+We conducted several studies (Section~\ref{sec:results}) to understand what clinicians need during decision-making and while interacting with an {\it AI-Assisted} system.
+In this stage, each medical image takes about 40 seconds to be analyzed, meaning that the clinician takes about half a minute to interpret an image.
+However, in most of the cases, each patient requires more than 100 images to be analyzed ({\it e.g.}, MRI volumes).
+This means that a complete diagnosis in a real situation takes more than an hour of the clinician's time, making this task cumbersome in the overall time of the {\it diagnosis} and prone to errors.
+In our observations, we concluded that most of the clinicians disengage from visualizing all set of medical images, or disregard some pathologies in the images.
+These handicaps may cause human errors and medical distractions \cite{bruno2015understanding}.
+
+After a patient classification, the clinician takes into consideration the first and the second stages ({\it i.e.}, {\it examination} and {\it diagnosis}) to improve the patient's clinical records and determine the prognosis.
+During the classification phase, the clinician examines the patient records and, by analyzing each medical image, records the {\em report} in a dictating system.
+The records are transcribed to a report, which are reviewed later by clinicians (signing the report as final).
+
+As previously discussed, using images to display breast lesions vary widely across medical imaging modalities (MG, US and DCE-MRI, being the latter two modalities crucial for dense breasts diagnosis).
+{\it Multimodality} is also responsible for increasing the cognitive load of radiologists and increasing detection rates but also False-Positives~\cite{cheung2017integral}.
+It is, therefore, a central issue in {\it BreastScreening}~\cite{https://doi.org/10.13140/rg.2.2.25412.68486, wernli2019surveillance}.
+In the next section, we will describe the relation between workflow stages of medical imaging and the clinical procedures.
+
+\subsection{Clinicians Procedures}
+\label{sec:workflow}
+
+TODO
+
+The main workflow of the radiology room~\cite{wagner2015analysis} (Figure~\ref{fig:fig002}) usually comprises four different paths that correspond to different observed image acquisition procedures:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+\item \textbf{Procedure 1} starts with the acquisition of MG, then, if the breast is dense, the US modality is acquired. Finally, if the MG and US are not conclusive, the DCE-MRI is acquired, otherwise the process is concluded;
+\item \textbf{Procedure 2} starts with the acquisition of MG, then if the clinician detects a high risk of cancer from the image patterns and/or patient records, both US and DCE-MRI are acquired, otherwise the process is concluded;
+\item \textbf{Procedure 3} MG and US are acquired simultaneously, if the {\it exam}~\cite{wagner2015analysis} is still not conclusive, the DCE-MRI is acquired;
+\item \textbf{Procedure 4} all three modalities (MG, US and DCE-MRI) are acquired simultaneously.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{fig002}
+\caption{Workflow of the radiology room is commonly adopted in current clinical institutions using several image acquisition strategies. Screening modalities ({\it e.g.}, MG, US, MRI, etc) constitute important complementary information for a reliable diagnosis. In this work, we intend to demonstrate how the multimodality is used in current clinical setups. The exposition described in {\bf Proc. 1}, is the one followed by Hospital Professor Doutor Fernando Fonseca, a public hospital in Lisbon. Thus, to design a useful interface to a specific hospital institution, it should contain all the modalities involved in the diagnosis. This also supports the use of multimodality in the present study.}
+\label{fig:fig002}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+From the interviews and observations (Section~\ref{sec:results}), we also found that clinicians access medical images in two main scenarios:
+i) imaging perception process, namely to detect patterns of lesions;
+and ii) finding relationships between past lesion patterns and possible future diagnosis.
+Given the time constraints and the amount of information available, clinicians often do not observe all the images with the necessary detail.
+From our observations and eye-tracking measurements (Section~\ref{sec:results}), they start by analyzing the patient's clinical history (when available).
+Clinical history provides the necessary knowledge on how to guide the analysis of the current state.
+At this point, we took impressions regarding the efficiency of clinicians, and their recommendations based on their experience for improvements of the patient {\it examination}.
+In fact, several studies demonstrated~\cite{waite2017tired} that radiologist fatigue levels and performance are related to environmental factors such as number of False-Negatives and False-Positives.
+That said, we start analyzing the potential enhancement that an {\it AI-Assisted} diagnosis could take in the radiology room~\cite{chatelain2018evaluation, miglioretti2007radiologist}.
+
+\subsection{Insights and Challenges}
+\label{sec:Challenges-Opportunities}
+
+Our observations and interviews are aligned with previous research on clinician-driven diagnostic {\it tasks}~\cite{heinrich2012mind, rosset2004osirix, Sultanum:2018:MTP:3173574.3173996, weese2016four, wolf2005medical}.
+From the research insights we identified the following main challenges:
+i) the heterogeneous visualization mode of a large number of images and file sizes; and
+ii) the annotation of medical images to support diagnosis and also how the introduction of the {\it AI techniques} can improve the classification ground truth for.
+Next, we detail each of the two points above mentioned.
+
+{\it Radiomics} in general, and {\it BreastScreening} in particular, require managing a significant and heterogeneous number of large image files.
+This is paramount in MRI volumes.
+During the MRI acquisition, tens of breast volumes are obtained, comprising different imaging volumes\footnotemark[3] some of them in time intervals ({\em e.g.}, T1, T2, diffusion, and Dynamic Contrast Enhanced with subtraction \cite{sorace2018distinguishing}).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[3]{The MRI comprises different types of volumes, concretely, T1, T2, T2 Fat Sat, Diffusion, DCE-MRI, DCE-MRI with subtraction in five time instants. The sensitivity of MRI makes it an excellent tool in specific clinical situations. Situations such as the screening of patients at high risk, and evaluation of the extent of disease in patients with a new diagnosis. Compared to MG and US, MRI provides higher sensitivity, however its specificity is variable. Moreover, MRI data analysis is time consuming and depends on reader expertise.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+From the  observations and interviews, it was clear  that clinicians observe only a fraction of these MRI volumes.
+Also, the imaging volumes inspected are different depending on the practices of each clinical institution.
+For instance, we observed that in HFF public hospital only the DCE-MRI at second time instant is considered, while in IPO-Lisboa only the third time instant of imaging volume is used for diagnosis.
+Consequently, the User Interface (UI) should reflect the specific institution as it will be detailed in Section~\ref{sec:clustering}.
+
+Related to the requirements of {\it radiomics}, the second challenge involves the generation of ground truth data.
+This is twofold, namely, (i) for visualization issues, when the radiologist is able to inspect the delineation provided, thus, facilitating an eventual second reading of the exam, also (ii) it constitutes valuable information for training deep neural nets with (semi)supervised learning procedures, as mentioned above (see Section \ref{sec:Radiomics}).
+This comprises the localization/delineation of anatomical calcification and mass lesions.
+
+In addition, it is easier to detect the lesion patterns by comparing the region of the breast in different modalities.
+This is particularly relevant in {\it BreastScreening} since the lesions in dense breasts are almost impossible to detect in MG (in both CC and MLO views) - a recognized problem leading to a large number of non-diagnosed cancers\footnotemark[4] which only manifest later in touch exams or after severe consequences from disease progression~\cite{mohamed2018deep}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[4]{The biopsy is the only diagnostic procedure that can definitely determine if a suspicious image area is cancer. For instance, a BI-RADS score of 4 means the patient needs a biopsy. However, there is just 30\% of chance of having malign cancer, in other words, a 70\% chance of a benign final result.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Design Goals}
+\label{sec:goals}
+
+In this section, we investigate how {\it AI-Assisted} methods could be integrated into the design of a medical imaging diagnostic assistant.
+Our purpose is to help mitigating breast cancer diagnosis, while meeting overall healthcare design goals.
+The main design goals are closely related to the research insights and the challenges of the previous section, namely:
+(1) a collection of a ground truth annotations, namely masses in all imaging modalities and calcification lesions in MG (for both CC and MLO views);
+(2) classification of the lesion severity using the BIRADS~\cite{aghaei2018association};
+(3) categorization of the breast tissues (dense vs non-dense);
+(4) clinical co-varia\-bles, such as personal and family records; and
+(5) visualizations for clinical summary which is crucial for a proper diagnosis and to perform patient follow-up.
+
+\hfill
+
+\noindent
+We fuse these five insights into three corresponding design goals, as follows:
+
+\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{description}
+\item[Medical Imaging Design (MID)] focusing on how to provide the best visualization strategy, given the heterogeneous information coming from the multi-modal sources of information;
+
+\item[Control Result Design (CRD)] focusing on improving the physician's ability to {\it accept} or {\it reject} the {\it AI-Assisted} results;
+
+\item[Explanation Design (ED)] focusing on increasing physicians understanding of how the AI techniques operate. By increasing understanding of how AI works, physicians can update their expectations of how well and in which situations the system is likely to work;
+\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hfill
+
+Herein, we  attempt to holistically integrate these design goals in the context of medical imaging diagnosis supported by {\it AI-Assisted} methods for the breast cancer domain.
+Through user studies, we identified the above three ({\it i.e.}, MID, CRD and ED) design goals.
+Next, we will describe the design methods to achieve these design goals.
+
+\subsection{Design Methods}
+
+In this paper, we actively involved all clinicians in the design of this medical imaging solution.
+To generate clinician's empathy and involvement, design methods from participatory design were used~\cite{10.1145/3025453.3025873}.
+
+\hfill
+
+\noindent
+Our design methods consist of three aspects:
+
+\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item {\it insight};
+\item {\it ideation}; and
+\item {\it implementation}.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hfill
+
+Interviews and observations are helpful to obtain a synthesized {\it insight} in the clinical workflow (Section~\ref{sec:workflow}).
+As design method according to this aspect, we went through several observations and interviews on clinical institutions.
+From these methods, we extracted information regarding, not only, workflow (Section~\ref{sec:workflow}), but also, demographic data (\href{https://mimbcd-ui.github.io/dataset-uta7-demographics}{mimbcd-ui.github.io/dataset-uta7-demographics}) of clinicians (Section~\ref{sec:participants}).
+
+For {\it ideation}, the process of generating new ideas, is central to design where the goal is to find novel solutions around a set of user needs and requirements.
+In terms of design methods, we promote several brainstorming techniques.
+Those techniques are such as workshops (Section \ref{sec:workshops}), focus groups (Section~\ref{sec:focus}) and affinity diagrams (Section \ref{sec:affinity}).
+Affinity diagramming (Section~\ref{sec:affinity}) has been used in our study to organize the acquired large sets of ideas into data clusters (Section~\ref{sec:clustering}).
+In this paper, the methods are used to organize our findings and to sort design ideas into {\it ideation} of a focus group (Section~\ref{sec:focus}) during several workshops (Section~\ref{sec:workshops}).
+The techniques will be further (Section~\ref{sec:qualitative}) detailed and discussed.
+
+Finally, the {\it implementation} is promoted as a way of developing the prototype (Section~\ref{sec:prototype}).
+We quickly recognized that successful {\it implementation} would rely on a bare minimum number of requirements.
+Short iterations enabled the use of many different design methods for prototyping and testing, as we have many different concerns with clinicians.

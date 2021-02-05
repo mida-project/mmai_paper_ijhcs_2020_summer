@@ -1,0 +1,59 @@
+\section{Background}
+\label{sec:related_work}
+
+Two areas motivate this research: a) {\it radiomics}; and b) Human-AI interaction. In the following sections, we address each one.
+
+\subsection{Radiomics}\label{sec:Radiomics}
+
+In modern healthcare, medical images are crucial to support decision making, both in terms of diagnosis, predictions, and treatment planning~\cite{https://doi.org/10.13140/rg.2.2.25718.65606}.
+In many situations, the accurate lesion detection and segmentation constitutes a mandatory requirement for image analysis. 
+Over the last decades, several methods have been proposed to automatically perform these two tasks~\cite{litjens2017survey}.
+
+One way to perform the detection and segmentation is based on the use of deep neural networks, depending on the amount of data used for training.
+In a supervised (or semi-supervised) setting the training data should be annotated.
+However this requirement is hard to be accomplished, since the annotations process is usually costly~\cite{https://doi.org/10.13140/rg.2.2.14792.55049, https://doi.org/10.13140/rg.2.2.16086.88649, 10.1145/3399715.3399744}.
+Thus, one has to resort to small datasets.
+To ensure that the networks' performance is not hampered by the lack of training images, transfer learning~\cite{NEURIPS2019_eb1e7832} is typically used, in which the network is first trained with a large unrelated data set and is then fine-tuned for the target task~\cite{shin2016deep}.
+
+Recently, Convolutional Neural Networks (CNN) were shown to be effective at diagnosing breast cancer~\cite{carneiro2017automated}.
+However, this and many other approaches \cite{becker2017deep, khan2019novel, wang2016discrimination} are limited to the MG modality.
+Few works have taken advantage of multi-modality to further enhance the performance of these methods \cite{murtaza2019deep}.
+Specifically in recent years, deep learning (DL) approaches have contributed to the notoriety of {\it AI-Assisted} healthcare~\cite{topol2019high}.
+These methods have been outperforming older approaches and setting  new State-Of-The-Art results, with some achieving or even surpassing human-level performances~\cite{esteva2017dermatologist,gale2017detecting}.
+
+The success of DL methods is due to the ability of the CNN~\cite{greenspan2016guest} to extract meaningful features, obtained using large training datasets.
+These networks learn to extract and analyze large numbers of image-based features ({\it e.g.}, through {\it radiomics}) for quantitative characterization and analysis of tumor phenotype~\cite{10.1007/978-3-319-59876-5_7}.
+Several deep neural architectures have been proposed, {\it e.g.}, DenseNet~\cite{huang2017densely} for classification (diagnosis) problems, or U-Net~\cite{ronneberger2015u} for segmentation problems.
+
+Despite the success of DL, and even though different studies have shown that {\it radiomics} ({\it i.e.}, {\it AI-Assisted} methods for medical image analysis) can reduce human error and improve outcomes~\cite{Cai:2019:HTC:3290605.3300234,delvaux2017effects,middleton2016clinical}, their adoption by the medical community has been slow.
+One of the main reasons is the inability of these systems to provide relevant medical information or to capture the nuances of the human mind~\cite{khairat2018reasons, kohli2018cad, 10.1145/2858036.2858373}, making them untrustworthy and preventing their clinical acceptance.
+In particular, DL-based methods have been frequently viewed as black box approaches~\cite{litjens2017survey}.
+Therefore, HCIs play an important role in creating user-friendly interactive systems for {\it AI-Assisted} medical image analysis~\cite{https://doi.org/10.13140/rg.2.2.30479.43682, Calisto:2017:TTM:3132272.3134111, https://doi.org/10.13140/rg.2.2.33421.59360}.
+
+\subsection{Human-AI Interaction}
+
+Applications of Human-AI collaboration in complex domains are subject to  the following two issues:
+(1) trust, transparency and accountability of the involved AI agent~\cite{amershi2019guidelines}; and
+(2) user's ability to understand and predict agent behavior, {\em i.e.}, explainability and intelligibility~\cite{Cai:2019:EEE:3301275.3302289, gunning2017explainable, 10.1007/978-3-319-99740-7_1, miller2018explanation}.
+Forming accurate mental models of the {\it AI-Assisted} is useful for:
+(i) representing the clinician's belief about what the system can do, acquired via interviews and observations, instruction, or inference;
+(ii) mapping between the observable features of our system and the functionality perceived by the user; and (iii) the prediction for anticipating the AI output in a given scenario.
+
+Whilst eXplainable AI (XAI)~\cite{10.5555/3365202} deals with the implementation of transparency and traceability of statistical `black‐box' machine learning methods.
+Particularly, deep learning approaches are in certain domains, a pressing need to go beyond XAI; for example, to reach a level of explainable medicine there is a crucial need for causability.
+However, causability~\cite{https://doi.org/10.1002/widm.1312} is different from causality.
+In the same way that usability encompasses measurements for the quality of use, causability encompasses measurements for the quality of explanations produced by XAI methods ({\it e.g.}, the heatmaps of Section~\ref{sec:methods}).
+Specifically, causability is the property of a human ({\it i.e.}, human intelligence), whereas explainability is a property of a system ({\it i.e.}, artificial intelligence).
+
+In the medical domain it is of supreme importance to enable a domain expert to understand~\cite{yang2019profiling}, `why' an algorithm came up with a certain result ({\it e.g.}, this is necessary due to raising legal issues).
+With certain XAI methods, such as layer-wise relevance propagation, relevant parts of inputs to, and representations in, a neural network which caused a result, can be highlighted (with a heatmap).
+However, this is only a first - important - but only first step to ensure that end users, {\it e.g.}, medical professionals (humans), assume responsibility for decision making with AI.
+The backbone for this approach is interactive ML~\cite{holzinger2016interactive}, which adds the component of human expertise to AI/ML processes by enabling them to re-enact and retrace the results on demand, {\it e.g.}, let them check it for plausibility.
+This requires new human-AI interfaces for XAI and in order to do so, one has to deal with the question of how to evaluate the quality of explanations given by a XAI system, for this we need measurements, {\it e.g.}, the recently developed System Causability Scale - to measure the quality of explanations~\cite{andreas2020measuring}.
+
+In this context, expectation theories~\cite{Kocielnik:2019:YAI:3290605.3300641, leung2019health} are postulating that user satisfaction and acceptance of a system is directly related to the difference between initial expectations and the actual clinical experience.
+Specifically, expecting more than the system can deliver will decrease user satisfaction and lead to the rejection of the system.
+Hence, we created our proposed technique, based on the following contributions:
+(1) providing users a new control feature on the introduction of AI methods among medical imaging diagnosis; and
+(2) the impact of the radiologists {\it behaviour} and the impact in professional practice.
+We did that to achieve more accurate expectations of the systems capabilities addressing potential gaps.

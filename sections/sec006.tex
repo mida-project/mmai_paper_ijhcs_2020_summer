@@ -1,0 +1,423 @@
+\section{Results}
+\label{sec:results}
+
+In this section, we will study several concerns by performing a set of quantitative and qualitative analysis of participants' information and behaviour.
+As follows, we will cover each one.
+
+\subsection{Quantitative Analysis}
+\label{sec:quantitative}
+
+Our quantitative analysis takes into account differences between medical expert levels ({\em i.e.}, {\it Intern}, {\it Junior}, {\it Middle}, and {\it Senior}), user characteristics, and medical imaging interpretation to understand user behaviour during decision making.
+In this section, we aim at providing a general and straightforward approach to do quantitative analysis  and inference understanding data collected during our user studies.
+
+The SUS questionnaire was used within the context of assessing {\it BreastScreening} usability.
+Hereby, we describe the results obtained from the {\it SUS Scores} and {\it SUS Questions} (Figures \ref{fig:fig007}, \ref{fig:fig008}, \ref{fig:fig009} and \ref{fig:fig010}).
+We provide subjective feedback regarding our interviews from the number of participants who expressed a given comment.
+By analyzing the numbers, we observe a highly positive adoption of the {\it Assistant} condition (Figures \ref{fig:fig008} and \ref{fig:fig010}) in comparison to the {\it Current} condition (Figures \ref{fig:fig007} and \ref{fig:fig009}), as described next.
+
+\hfill
+
+\noindent
+Hence, four relations emerged from our analysis:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[label=\alph*]
+\item - differences between {\it SUS Scores} and {\it SUS Questions} (Figures \ref{fig:fig007}, \ref{fig:fig008}, \ref{fig:fig009} and \ref{fig:fig010}) across the groups of medical experience ({\em i.e.}, {\it Intern}, {\it Junior}, {\it Middle}, and {\it Senior}) on the {\it Assistant} setup;
+\item - workload measurements (Tables \ref{tab:nasatlx_demands} and \ref{tab:nasatlx_metrics}) of both {\it Current} and {\it Assistant} setups;
+\item - False-Positive and False-Negative ratios (Figure \ref{fig:fig012}); and
+\item - relation between diagnostic {\it Time} and lesion severity ({\it i.e.}, Low, Medium and High values of the BIRADS) on both conditions ({\it i.e.}, {\it Current} and {\it Assistant}), among different groups of medical experience (Figure \ref{fig:fig011});
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{{\it SUS Scores} vs {\it SUS Positive Questions}}
+
+The generated results of the SUS questionnaire are depicted in Figures \ref{fig:fig007} and \ref{fig:fig008}.
+Specifically, Figure ~\ref{fig:fig007} shows the results obtained with
+{\it Current} scenario, and Figure~\ref{fig:fig008} shows the results with the introduction of the {\it Assistant}.
+
+In short, the {\it Current} condition obtained 22\% of agreement against an obtained 69\% for the {\it Assistant} condition, revealing a higher acceptance for using the {\it Assistant} (Figure~\ref{fig:fig008}).
+This means that despite of the clinicians' resistance of change for new tools~\cite{Calisto:2017:TTM:3132272.3134111, gagnon2014electronic}, physicians are now accepting this novel {\it AI-Assisted} techniques to support their clinical workflow.
+
+TODO
+
+Another clear fact to explain these values are the results for the ease of use.
+In those results, the {\it Assistant} condition reveals an 85\% of agreement against the 71\% for the {\it Current} condition.
+Conversely, 82\% of clinicians found that the various functions of the {\it Assistant} were well integrated with the workflow.
+The confidence level with the {\it Assistant} was also very high, reaching 80\% on this condition.
+
+\subsubsection{{\it SUS Scores} vs {\it SUS Negative Questions}}
+
+Similarly to the previous analysis, here we conduct the same study, but now for negative questions Figure~\ref{fig:fig010}.
+Regarding the negative questions (Figure~\ref{fig:fig010}), 86\% of the physicians disagree that the system is unnecessarily complex.
+Suggesting that the introduction of an {\it AI-Assisted} system will not bring more complexity to the diagnostic.
+This fact is also paired with the NASA-TLX (Tables \ref{tab:nasatlx_demands} and \ref{tab:nasatlx_metrics}) results.
+
+TODO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{fig007}
+\caption{Results of SUS with Positive Questions for the {\it Current} condition. Each color and respective bar number indicate the mean score for the question, {\it i.e.}, ranging from 1 = "Strongly disagree" to 5 = "Strongly agree". This figure represents the positive questions. The "Strongly agree" is our optimal value. From the reported results, a majority of the clinicians agree that the system was easy to use and with well integrated functionalities.}
+\label{fig:fig007}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{fig008}
+\caption{Results of SUS with Positive Questions for the {\it Assistant} condition. This {\it Assistant} condition was well accepted by clinicians. Almost all clinicians would like to use this system frequently. Moreover, they consider the system much easier to use and with higher integrated functionalities. Last but not least, clinicians learn more quick and with more confidence this {\it Assistant} system condition.}
+\label{fig:fig008}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{fig009}
+\caption{Results of SUS with Negative Questions for the {\it Current} condition. In this case, we can observe that 23\% found the system inconsistent and 24\% felt that need to learn before interacting with the system.}
+\label{fig:fig009}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\columnwidth]{fig010}
+\caption{Results of SUS with Negative Questions for the {\it Assistant} condition. Comparing the {\it Assistant} with the {\it Current} condition, we can observe that clinicians found the {\it Assistant} condition less complex, inconsistent and cumbersome.}
+\label{fig:fig010}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsubsection{{\it Workload} (Demands)}
+
+The results generated from the NASA-TLX~\cite{grier2015high, ramkumar2017using} (Mental, Physical and Temporal) Demands are expressed in Table \ref{tab:nasatlx_demands}.
+For each NASA-TLX item, the normalized data were first ranked and aligned to the ANOVA\footnotemark[12] measurements.
+As follows, we present the results for the demands of the NASA-TLX questionnaires.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[12]{{\it N}: the number of users (Clinicians); $F\textsubscript{var}$: the F-test used for comparing the factors of the total deviation per each variable ({\it var}) categorized by clinical experience; $M\textsubscript{var}$: Mean value of the variable ({\it var}); $SD\textsubscript{var}$: the Standard Deviation (SD) per each variable ({\it var}). Notice that from the statistical significance analysis described in Table \ref{tab:nasatlx_demands} and setting a significance threshold to 0.05, two scenarios are possible to occur. First, if we obtain a p-value > 0.05, this means that the approaches are not statistically different, better saying, we can not state anything about the data. On the contrary, if the p-value < 0.05 the approaches are statistically different, since now we can reject the null hypothesis that states there is not a statistically significant difference between results of the proposed method and the other methods compared.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The ANOVA statistical test~\cite{Wobbrock:2011:ART:1978942.1978963, mathews2017usability} yields a significant main effect for the Mental Demand (F\textsubscript{Curre.} = 3.39, p\textsubscript{Curre.} = 0.027 < 0.05), Physical Demand (F\textsubscript{Curre.} = 11.99, p\textsubscript{Curre.} = 0.001 < 0.05) and Temporal Demand (F\textsubscript{Curre.} = 10.51, p\textsubscript{Curre.} = 0.001 < 0.05).
+On the other hand, the {\it Assistant} condition indicates a significant difference only in Physical Demand (F\textsubscript{Assis.} = 2.85, p\textsubscript{Assis.} = 0.048 < 0.05). A detailed comparison is shown in Table~\ref{tab:nasatlx_demands}.
+Despite of the higher rates from the NASA-TLX over the several Demands (Table~\ref{tab:nasatlx_demands}), we can point improvements from the {\it Current} to the {\it Assistant} setup.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{tables/tab001}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+From our study, it can be identified that some functionalities contribute significantly to one (or more) types of workloads (criteria variables) in the NASA-TLX questionnaire.
+For instance, increasing the number of available image modalities on the viewport is strongly associated to Mental Demand.
+However, for the {\it Assistant} condition we could not take conclusions since the fact that their is no significant main effect.
+The overall time duration of manipulating the images ({\it i.e.}, zoom, pan, scroll) is strongly associated to the Physical Demand.
+Comparing both {\it Current} and {\it Assistant} conditions, we can observe significant main effect and improvements on the {\it Assistant} condition.
+The time duration of decision-making is strongly associated with Temporal Demand.
+Nonetheless, only the {\it Current} condition follows a significant main effect making it difficult to do a strong comparison with the {\it Assistant} condition.
+
+\subsubsection{{\it Workload} (Non-Demands)}
+
+The NASA-TLX on the Non-Demands scales only yields significant difference among groups for Performance (F\textsubscript{Curre.} = 5.56, p\textsubscript{Curre.} = 0.003 < 0.05).
+A more detailed comparison is shown on Table~\ref{tab:nasatlx_metrics}.
+Again, despite of a higher rates one can point improvements from {\it Current} vs {\it Assistant}.
+This is a result of the increasing number of visualization modalities, at the same time, from one ({\it Current}) to three ({\it Assistant}) assisted by an AI model.
+In fact, the improvement scores (\textbf{F}) of our {\it Assistant} are positive.
+Note that, as far as the scores are less than three times the results of the {\it Current} condition, one can conclude that we are getting better results.
+
+Effort and Frustration do not provide any significant main effect on both {\it Current} and {\it Assistant} conditions.
+Therefore, we could not consider any findings regarding these issues.
+Nor even the Performance results, since the fact that the {\it Assistant} does not represent any significant main effect.
+Notwithstanding, we will pair (Section~\ref{sec:discussion}) the above (Demands) and these (Non-Demands) NASA-TLX results with other metrics to discuss the results with more evidence.
+
+TODO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{tables/tab002}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{{\it Diagnostic Time} vs {\it Breast Severity}}
+
+The results\footnotemark[13] expressing the full diagnostic time length and breast severity among the 289 Patients ({\em i.e.}, {\bf P1} - Low, {\bf P2} - Medium and {\bf P3} - High severities) are shown in Figure \ref{fig:fig011}.
+For the {\bf P1} - Low severity, the {\it Current} (M\textsubscript{Curre.} = 146, SD\textsubscript{Curre.} = 86.17) condition was longer than the {\it Assistant} (M\textsubscript{Assis.} = 89, SD\textsubscript{Assis.} = 74.13) condition.
+Also, for the {\bf P2} - Medium severity, the {\it Current} (M\textsubscript{Curre.} = 78, SD\textsubscript{Curre.} = 48.05) condition was, again, longer than the {\it Assistant} (M\textsubscript{Assis.} = 77, SD\textsubscript{Assis.} = 96.80) condition.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[13]{We provide an available {\it dataset} (\href{https://mimbcd-ui.github.io/dataset-uta7-time/}{mimbcd-ui.github.io/dataset-uta7-time}) from our {\it time} data.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\columnwidth]{fig011}
+\caption{Relation between full diagnostic time length (seconds) and breast severity. We compared both Curre. and Assis. conditions as Low, Medium and High values of BI-RADS. The paper focuses on multimodality, since in current clinical setups the three modalities (MG, US, and MRI) are used for breast diagnosis. Thus, to develop an AI system for exam classification, it is mandatory  to take into consideration all the modalities so that it can resemble, and be useful in real scenarios. Indeed, when performing the evaluation in the two conditions, each patient (P1, P2, and P3), has BI-RADS with different severity (Class 1 - Low, Class 2 - Medium, and Class 3 - High) and also, each patient contains all the three modalities.}
+\label{fig:fig011}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Finally, for the {\bf P3} - High severity, the {\it Current} (M\textsubscript{Curre.} = 116, SD\textsubscript{Curre.} = 65.70) condition was longer than the {\it Assistant} (M\textsubscript{Assis.} = 64, SD\textsubscript{Assis.} = 86.94) condition.
+The ANOVA statistical test shows a significant effect over the total {\it Time} for the {\it Current} (F\textsubscript{Curre.} = 3.25, p\textsubscript{Curre.} = 0.03 < 0.05) condition regarding the clinical experience groups on a {\bf P1} - Low severity case.
+
+Planned post-hoc testing~\cite{10.1145/2858036.2858360}, using the Tukey's HSD Post-Hoc Comparison (p\textsubscript{Curre.} < 0.05), revealed that for the groups of {\it Juniors} significantly increased the time performance and severity accuracy compared to {\it Interns}.
+Therefore, our assistant, not only improves time performance (Figure \ref{fig:fig011}) and diagnostic accuracy (Figure \ref{fig:fig012}) among the others physicians' categories of medical experience, but also provides important support for {\it Interns}.
+
+These results support {\bf RQ1}, suggesting that our {\it BreastScreening} tool could impact positively the clinical workflow, mitigating the different types of errors on clinical perception by improving time performance and diagnostic accuracy.
+
+\subsubsection{{\it False-Negatives} vs {\it False-Positives}}
+
+We also measured the rates of False-Negatives and False-Positives (Figure~\ref{fig:fig012}) between {\it Current} and {\it Assistant} conditions. The False-Negative rates decrease from 33\% on the {\it Current} condition to 14\% on the {\it Assistant} condition.
+From our {\it dataset},\footnotemark[14] the results show a significant potential reduction of False-Negatives, i.e., cases where the diagnosis leads to a low severity (BIRADS) against expert ground truth.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[14]{We provide an available {\it dataset} (\href{https://mimbcd-ui.github.io/dataset-uta7-rates/}{mimbcd-ui.github.io/dataset-uta7-rates}) from our severity {\it rates} (BIRADS) data.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{fig012}
+\caption{{\it Current} {\bf vs} {\it Assistant} rates for False-Negatives and False-Positives. A False-Positive is considered when the BIRADS\textsubscript{provided} $>$ BIRADS\textsubscript{real}. A False-Negative is considered when the BIRADS\textsubscript{provided} $<$ BIRADS\textsubscript{real}. Each patient (P1 - Low, P2 - Medium, and P3 - High) comprises all three (MG, US, and MRI) modalities.}
+\label{fig:fig012}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Notwithstanding, the False-Positive rates decrease from 39\% on the {\it Current} condition to the 15\% on the {\it Assistant} condition for an overall ({\it i.e.}, Total) condition.
+In essence, we will have a 24\% decrease of situations where radiologists are providing a BIRADS higher than the real one.
+
+\subsection{Qualitative Analysis}
+\label{sec:qualitative}
+
+We complemented our quantitative analysis with insights and results from interviewing participants.
+In this section, we describe the study of a preliminary design for the development of our {\it Assistant}, informed by an iterative process to identify clinician's needs and recommendations.
+First of all, from a set of workshops (Section~\ref{sec:workshops}) we introduce participants to aspects or open-ended questions that can drive this initial stage of qualitative data analysis.
+In this workshops, participants are divided into small groups.
+Second, by joining our research team with participants, it is established the focus group (Section~\ref{sec:focus}).
+And third, to cluster and categorize (Section~\ref{sec:affinity}) the set ideas, features and priorities, we introduce in this focus group a lightweight approach called affinity diagrams (Section~\ref{sec:clustering}).
+The following sections will detail and describe the qualitative analysis.
+
+\subsubsection{Workshops with Clinicians}
+\label{sec:workshops}
+
+The first step of our methodology was to record {\it workflow} practices and routines from clinicians~\cite{Hoiseth:2013:DHG:2485760.2485770, Hoiseth:2013:RGD:2468356.2468436}.
+To this end, several invitations were sent among the various medical institutions and at least one workshop was formed per each institution as described next.
+We grouped all participants volunteered to our study, at least one day per each institution.
+For HFF (public hospital), we did four workshop meetings, while it was the institution with more clinicians and, therefore, harder to schedule.
+For IPO-Lisboa, a public cancer institution, we did two workshop meetings, as well as for the HB public hospital.
+For the other institutions, we did just one workshop meeting.
+A total of 45 professionals from the sector of healthcare ({\it i.e.}, Radiologists, Oncologists, and Surgeons), as well as six members of the {\it BreastScreening} project ({\it i.e.}, HCI and AI Researchers) participated in these series of workshops.
+
+Based on a preliminary content analysis of the semi-structured interviews with clinicians, we conducted the workshop as part of the {\it BreastScreening} project development.
+Participants worked in groups and brainstormed around their clinical practices and routines.
+Most of the practices are recorded and written.
+Moreover, notes were digitally\footnotemark[15] transcribed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[15]{Affinity diagramming is a powerful method for performing qualitative data (\href{https://mimbcd-ui.github.io/dataset-uta7-ad}{mimbcd-ui.github.io/dataset-uta7-ad}) organization and analysis. The method was used to help understand the role of technology into the RR workflow. More precisely, affinity diagrams were used to organize the provided information from clinicians to group it with related ideas or topics.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The duration of the workshop per session was roughly two hours and ended with joint sessions wherein each group of clinicians highlighted important aspects of the clinical {\it workflow} for their institutions.
+At the end of the workshop sessions, we collected four different procedures (Figure \ref{fig:fig002}) of acquiring medical images.
+Participants engaged into our planed design activities~\cite{https://doi.org/10.13140/rg.2.2.16566.14403/1}, in which they provide us inputs regarding the current {\it Assistant}.
+Using the provided input from the workshops, we designed a prototype that was evaluated during several sessions at our nine clinical institutions, such as public and private hospitals, public cancer centers, as well as private clinics.
+
+Another important aspect is that the MG image modality is always present on a first stage of medical image acquisition, mainly because of its low cost.
+The US is the  second most preferred modality to cross information between MG image modality views ({\it i.e.}, CC or MLO).
+Finally, because of the high costs ({\it e.g}, time of acquiring the images) associated with the MRI, clinicians said (in nine institutions only one follows the {\bf Proc. 4}, see Figure \ref{fig:fig002}) it was typically recommended only for highly risk patients.
+
+\subsubsection{Focus Group}
+\label{sec:focus}
+
+Building on the qualitative data from the workshops with clinicians, a focus group consisting of six Researchers (MSc, PhD and Post-Doc students, as well as Assistant and Full Professors) and another six Radiologists (2 seniors; 1 middle; 2 juniors; and 1 intern) from HFF public hospital, organized the {\it workflow} practices and main feature ideas to greater detail by using affinity diagrams~\cite{Harboe:2012:CSC:2145204.2145379, Hoiseth:2013:RGD:2468356.2468436}.\footnotemark[15]
+The affinity diagrams enable us to identify several functionalities, such as the need to {\it accept} or {\it reject} (Figure~\ref{fig:fig005}) our {\it Assistant} result.
+Also important, it was from the affinity diagrams that we achieve a high priority feature of developing a technique so that in case of {\it reject} our {\it Assistant} result, the clinician can provide new information to the DenseNet.
+
+\hfill
+
+\noindent
+This technique is novel and, while applying these HCI practices, it provides a twofold of contributions:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+\item We created a new way of control on the introduction of AI methods among medical imaging diagnosis; and
+\item The inclusion of a DNN in the UI, particularly, the introduction of a pre-trained DenseNet capable to provide a fast and reliable classification.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Affinity Diagrams}
+\label{sec:affinity}
+
+This was an interactive process that consisted of adding or removing items until a final pattern configuration is reached.
+As these ideas and functionalities from the clinicians could be relevant for several purposes, it was considered useful to short on a more general level to start with.
+Ideas, features and priorities were translated (Figure~\ref{fig:fig013}) to a digital tool,\footnotemark[16] while the affinity diagrams~\cite{10.1145/3290605.3300628} are used for: (i) categorization of the focus group items; and (ii) data clustering of the chaotic information.
+This solves our problem (Section~\ref{sec:clustering}) for chaotic data~\cite{10.1145/3343413.3377983, 10.1145/2858036.2858373}.
+From workshops (Section~\ref{sec:workshops}), participants ({\it i.e.}, researchers and some of the clinicians) of the focus group (Section~\ref{sec:focus}) were asked to review and re-position ideas and features, within each category, in order to organize them.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[16]{For that, we used the collaboration software Trello, which allowed us to digitally organize and manage the group ideas. (\href{https://trello.com}{trello.com})}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{fig013}
+\caption{Resulting affinity diagrams passed to a digital software tool. The overall ideas and features categorization. Each idea and feature has a category ({\it e.g.}, "Action Items", "Essential", "Went Well", "Need To Change" or "Questions and Discussion"), so that we can manage the final requirements and development priorities of our {\it Assistant}.}
+\label{fig:fig013}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Every time an idea or a feature was triggered, we put it on the "Action Items" category.
+After that, participants discuss where it should be, answering the workshop needs for item categorization.
+For instance, several clinicians (Section \ref{sec:system}) listed\footnotemark[17] their preferred components as the position (32/45) and simplicity (28/45) of the {\it Toolbar}:
+"The {\it Toolbar} position is in a better place on the top in contrary what we usually [Current] see" (C30).
+From here, we created an item titled as "Toolbar Position" and since it was accepted by a major number of clinicians (and rejected or omitted by another number) we stuck the item onto the "Went Well" category.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[17]{We transcribe the workshop answers and feedback so that we can join similar opinions in different items. A "(32/45)" means that 32 clinicians for a total of 45 clinicians appointed a similar sentence of the clinician number 30, {\it i.e.}, "(C30)" on that example.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TODO
+
+\hfill
+
+\noindent
+Through the affinity diagrams, we found that specific items, within each own categories, correspond to three needs of clinicians:
+
+\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[label=\alph*]
+\item - new strategies among the medical imaging visualizations;
+\item - to control ({\it e.g.}, {\it accept} or {\it reject}) the final {\it Assistant} result; and
+\item - to understand the {\it Assistant} result.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hfill
+
+The approach of the three needs was defined by the focus group as mapping all {\it workflow} processes and activities that clinicians should perform in order to finish all pipelines of the diagnostic.
+For example, it was here that the importance for the introduction of such AI systems was emphasized.
+One of the clinicians even argue that: "If we have an intelligent assistant like this in our workflow, it will be more simple and easy to do our job" (C45).
+The settings for the clinicians' need include all the preconditions that helped to enroll with the diagnosis more promptly finished.
+
+Throughout this process a set of design guidelines have been derived.
+In order to investigate how the clinical {\it workflow} proceeds, the affinity diagrams were used to connect ideas and features to a set of guidelines that we will describe next.
+For this purpose, we created three central design components that can be applied for medical imaging systems with AI behind: (i) explaining the important lesion regions; (ii) higher interpretability of the AI results; and (iii) providing control for the final result.
+
+\clearpage
+
+\noindent
+From Figure~\ref{fig:fig013} and from the feedback obtained when building the affinity diagrams, the following design guidelines were considered:
+
+\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{description}
+\item[Relevance to Diagnostic] our AI system ({\it Assistant}) should provide relevant clinical information so that clinicians can explore various aspects of the diagnosis. For instance, information that allows clinicians to understand where are the relevant lesions (Figure \ref{fig:fig006}) and what are the respective levels of severity regarding both shape and size of the lesion.
+
+\item[Clinician-Centered Activities] since our data must be shared with a team of clinicians, our AI system should provide collaboration. Lesion annotations in context for collaboration should, for instance, be visualized synchronously by two (or more) clinicians. If a clinician starts annotating a lesion, the same annotation should be visualized remotely by another.
+
+\item[Provide Explanations] the system must provide answers regarding the final AI result. In our work, we created an "Explain" (Figure \ref{fig:fig005}) so that the clinician can open the heatmaps (Figure \ref{fig:fig006}) on the image. The heatmaps will show the variability (color) of the important regions. Which is information that will explain the final BIRADS.
+
+\item[Feeling in Control] the {\it Assistant} must provide control for the final decision. Clinicians must feel that, in case of a wrong AI diagnostic, the final result must be changed ({\it reject}) by them. So that we can guarantee the patient safety and right treatment of the lesion.
+\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Later, we describe how we clustered the acquired data.
+The data was acquired based in the {\it affinity} of the collected ideas and features.
+
+TODO
+
+\subsubsection{Data Clustering}
+\label{sec:clustering}
+
+Data clustering is an important step for the developed UI.
+Indeed, the MRI data is inherently chaotic, since each exam contains tens of volumes.
+Specifically, we have:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{multicols}{2}
+\begin{enumerate}
+\item T1;
+\item T2;
+\item T2 Fat Sat;
+\item T2 TIRM - Turbo Inversion Recovery Magnitude;
+\item Diffusion - with and without SUB;
+\item DCE MIP - Maximum Intensity Projections;
+\item DCE WO;
+\item DCE PEI;
+\end{enumerate}
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+As notes are placed, and in moving them around later, they are clustered based in their {\it affinity}, {\it i.e.}, their similarity or relevance to a shared topic.
+This leads to the creation of data groups, which are labeled and recursively clustered.
+The process is repeated until the highest level has only a few groups and the initially unstructured items have been organized bottom-up~\cite{harrington2016affinity, 10.1145/3290605.3300628, 10.1145/3173574.3173704}.
+Clusters and then given titles are grouped into more abstract groups, giving rise to general and overarching ideas.
+Ideas are then clustered again to identify common issues and potential solutions, ultimately helping to frame the user needs and design problems.
+
+While doing the affinity diagrams, the focus group responded (Figure~\ref{fig:fig013}) with several user needs and requirements.
+Such user needs and requirements are crucial to define which are the most important ({\it i.e.}, "Essential" column of Figure~\ref{fig:fig013}) modalities and what are the procedures (Figure~\ref{fig:fig002}) on the workflow.
+More specifically, as we have several MRI sequence\footnotemark[18] options, it is really hard for clinicians to proceed to the visualization of all MRI volumes.
+What we call chaotic data problem.
+Thus, from a set of MRI volumes, we need to figure out, what is the ones that best matches the radiologist needs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[18]{As most sensitive method for detection of breast cancer (\href{https://radiopaedia.org/articles/breast-mri?lang=us}{radiopaedia.org/articles/breast-mri}), the breast MRI aims to obtain a reliable evaluation of any lesion within the breast. It is always used as an adjunct to the standard diagnostic procedures of the breast, {\it i.e.}, clinical examination, MG and US.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+We should highlight that, during the focus group, we could not reach a consensus within the radiologists from HFF public hospital and IPO-Lisboa public cancer center for the MRI volumes.
+On one hand, HFF are using DCE-MRI in second instant.
+On the other hand, IPO-Lisboa are using T3.
+Since we were using medical imaging data from HFF public hospital, and we had consensus from the clinicians of this hospital, we choose their main sequences ({\it i.e.}, DCE-MRI in second instant) as standard.
+
+From data clustering, we could understand the need for each modality ({\it e.g.}, MG, US and DCE-MRI at the second time instant) and what is the meaning to the clinical workflow (Figure~\ref{fig:fig002}).
+For instance, thanks to the workshops and the focus groups, we could take important data regarding how these modalities constitute complementary information for a reliable diagnosis per institution.
+
+\subsubsection{Prototype}
+\label{sec:prototype}
+
+The {\it AI-Assisted} prototype consists of two parts:
+(1) the diagnosis via medical images, in which our prototype has several functionalities to support clinicians with tools for a proper final result; and
+(2) the automatic severity classification of lesions, in which we have a DenseNet providing the BIRADS values.
+
+\subsubsection{Final Visual Configuration Achievements}
+
+Thanks to the process of putting something visual with real cases in front of clinicians, the workshops and the affinity diagrams, we could explore in a higher manner the good insights of them.
+It was at this stage of the study, that several clinicians provided important modifications and feedback for the future final system.
+Such modifications were, for instance, bringing the {\it Assistant} (Figure \ref{fig:fig005}) from the top and middle to the button right of the screen inside the {\it 5.1. Viewports}.
+Again, the comment was provided during the interaction with the prototype at this phase.
+Otherwise we did not test the suggestion.
+The suggestion made us improve at about a 40\% factor of the time (Section \ref{sec:results}) over interaction with our {\it Assistant}.
+
+The explanation was simple, clinicians are use to work inside the {\it 5.1. Viewports} (Figure \ref{fig:fig005}).
+Meaning that it is less distance, time and effort to achieve the {6. \it Assistant} avatar.
+Furthermore, the visibility was not compromised because of two reasons: (a) first of all, most of the cases (typically the majority of MG and MRI modalities) has no relevant image information on the button right of the screen inside the {\it 5.1. Viewports}; and (b) we developed a hidden button, so that if a clinician really need to look at that area, the {6. \it Assistant} avatar will disappear, showing the full image with nothing overlaid.
+
+\subsubsection{Qualitative Feedback from Clinicians}
+
+Our qualitative data present an initial attempt to exploit knowledge from clinicians into useful guidelines.
+Now, we want to address a presented result of applying these guidelines to our work and which was the clinician's final opinions and feedback.
+The following sentences are addressing the most important clinician's final opinions and feedback for the final solution.
+
+At the end several clinicians (28/45) answered that the assistant will be an asset of an immense importance for the current RR situation:
+"The system [{\it BreastScreening} assistant] will be a great asset for us" (C6).
+Several clinicians reported that the system is intuitive (33/45) and easy to learn (28/45):
+"When I start exploring the new system [{\it Breast\-Screening} assistant] I found it very fast to learn and intuitive to use" (C15); and
+"The interface [{\it BreastScreening} assistant] is easy to learn and I do not need any help" (C10).
+Another positive answer was the one related to the frequency of use (41/45) for this new assistant regarding the current system used by the clinicians on the daily practice:
+"I would like to frequently use this on my daily practice" (C1).
+
+TODO
+
+The above statements confirm the efficiency and acceptability of the proposed {\it AI-assisted} prototype.
+This suggests that it is an improvement on the current setups, and fits the Reading Room (RR)\footnotemark[19] workflow.
+From the positive feedback, we expect that this tool will be helpful to improve the diagnostic results over time, providing higher health care to the patients.
+Several reports with details of clinicians comments, system architecture, and description of {\it dataset} (results of the usability, workload scales and other metrics) will be made available.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotetext[19]{The {\bf Reading Room (RR)} is the space in which we have non-invasive imaging scans to diagnose a patient. The tests and equipment involves low dose of radiation to create a highly detailed image of the breast area. Each room accommodates the controls and appropriate accessories. There are several goals for these reading rooms: (1) read a large number of exams; (2) find as many of the screening cancers as possible; (3) provide a comfortable work environment for the radiologists; and (4) instill confidence in the quality of the work.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

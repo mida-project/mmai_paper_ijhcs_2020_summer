@@ -1,0 +1,133 @@
+%% 
+%% Copyright 2019-2020 Elsevier Ltd
+%% 
+%% This file is part of the 'CAS Bundle'.
+%% --------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%%
+%%
+%% Template article for documentclass for 
+%% double column output.
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-sc}
+\documentclass[a4paper,fleqn]{cas-sc}
+
+%\usepackage[authoryear,longnamesfirst]{natbib}
+%\usepackage[authoryear]{natbib}
+\usepackage[numbers]{natbib}
+% for EPS, load graphicx instead
+\usepackage{graphics}
+\usepackage{graphicx}
+% for umlauts and other diaeresis
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{enumitem}
+\usepackage{epstopdf}
+\usepackage{multicol}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{hyperref}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=black,
+filecolor=black,
+urlcolor=black,
+}
+
+\graphicspath{{images/}}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\shorttitle{BreastScreening-AI}
+\shortauthors{Calisto et~al.}
+\setlength{\marginparwidth }{2cm}
+
+\title{Introduction of Human-Centric AI Assistant to Aid Radiologists for Multimodal Breast Image Classification}
+
+\author[1]{Francisco Maria Calisto}[orcid=0000-0001-8179-7872]
+\ead{francisco.calisto@tecnico.ulisboa.pt}
+%\ead[URL]{https://web.tecnico.ulisboa.pt/francisco.calisto}
+
+\author[1]{Carlos Santiago}[orcid=0000-0002-4737-0020]
+%\ead{carlos.santiago@tecnico.ulisboa.pt}
+%\ead[URL]{https://welcome.isr.tecnico.ulisboa.pt/author/carlosjorgemariz}
+
+\author[2]{Nuno Nunes}[orcid=0000-0002-2498-0643]
+%\ead{nunojnunes@tecnico.ulisboa.pt}
+%\ead[URL]{https://fenix.tecnico.ulisboa.pt/homepage/ist132720}
+
+\author[1]{Jacinto C. Nascimento}[orcid=0000-0001-7468-5127]
+%\ead{jan@isr.tecnico.ulisboa.pt}
+%\ead[URL]{http://users.isr.tecnico.ulisboa.pt/~jan}
+
+\address[1]{Institute for Systems and Robotics, Avenida Rovisco Pais 1, 1049-001, Lisbon, Portugal}
+\address[2]{Interactive Technologies Institute, Caminho da Penteada, 9020-105, Funchal, Madeira, Portugal}
+
+\begin{abstract}
+In this research, we take an HCI perspective on the opportunities provided by {\it AI techniques} in medical imaging, focusing on workflow efficiency and quality, preventing errors and variability of diagnosis in Breast Cancer. Starting from a holistic understanding of the clinical context, we developed {\it BreastScreening} to support {\it Multimodality} and integrate {\it AI techniques} (using a deep neural network to support automatic and reliable classification) in the medical diagnosis workflow.
+This was assessed by using a significant number of clinical settings and radiologists.
+Here we present:
+i) user study findings of 45 physicians comprising nine clinical institutions;
+ii) list of design recommendations for visualization to support breast screening {\it radiomics};
+iii) evaluation results of a proof-of-concept {\it BreastScreening} prototype for two conditions {\it Current} (without AI assistant) and {\it AI-Assisted}; and
+iv) evidence from the impact of a {\it Multimodality} and {\it AI-Assisted} strategy in diagnosing and severity classification of lesions.
+The above strategies will allow us to conclude about the {\it behaviour} of clinicians when an AI module is present in a diagnostic system.
+This {\it behaviour} will have a direct impact in the clinicians workflow that is thoroughly addressed herein.
+Our results show a high level of acceptance of {\it AI techniques} from radiologists and point to a significant reduction of cognitive workload and improvement in diagnosis execution.
+\end{abstract}
+
+\begin{keywords}
+
+Human-Computer Interaction
+
+Artificial Intelligence
+
+Healthcare
+
+Medical Imaging
+
+Breast Cancer
+
+\end{keywords}
+
+\maketitle
+
+\input{body}
+
+%\appendix
+%\section{Appendix}
+
+\printcredits
+
+\clearpage
+
+%% Loading bibliography style file
+\bibliographystyle{cas-model2-names}
+
+% Loading bibliography database
+\bibliography{bibliography}
+
+\clearpage
+
+% ----------------------------------------------------------------------
+% HERE GO THE APPENDIXES IF REQUIRED
+% If not required just comment the blocks
+\appendix
+%% First Appendix
+\pdfpageheight=\pagetotal
+\pdfbookmark[1]{Appendix}{appendix}
+\input{appendixes/app001.tex}
+%% If Printing on DOUBLE SIDED pages, the second page should be white.
+%% Otherwise, comment the following command:
+% ----------------------------------------------------------------------
+
+\end{document}
