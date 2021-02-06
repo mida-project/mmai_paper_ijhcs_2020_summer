@@ -1,0 +1,10 @@
+In this research, we take an HCI perspective on the opportunities provided by {\it AI techniques} in medical imaging, focusing on workflow efficiency and quality, preventing errors and variability of diagnosis in Breast Cancer. Starting from a holistic understanding of the clinical context, we developed {\it BreastScreening} to support {\it Multimodality} and integrate {\it AI techniques} (using a deep neural network to support automatic and reliable classification) in the medical diagnosis workflow.
+This was assessed by using a significant number of clinical settings and radiologists.
+Here we present:
+i) user study findings of 45 physicians comprising nine clinical institutions;
+ii) list of design recommendations for visualization to support breast screening {\it radiomics};
+iii) evaluation results of a proof-of-concept {\it BreastScreening} prototype for two conditions {\it Current} (without AI assistant) and {\it AI-Assisted}; and
+iv) evidence from the impact of a {\it Multimodality} and {\it AI-Assisted} strategy in diagnosing and severity classification of lesions.
+The above strategies will allow us to conclude about the {\it behaviour} of clinicians when an AI module is present in a diagnostic system.
+This {\it behaviour} will have a direct impact in the clinicians workflow that is thoroughly addressed herein.
+Our results show a high level of acceptance of {\it AI techniques} from radiologists and point to a significant reduction of cognitive workload and improvement in diagnosis execution.

@@ -1,0 +1,1407 @@
+\begin{thebibliography}{130}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Abdul et~al.(2018)Abdul, Vermeulen, Wang, Lim and
+  Kankanhalli}]{Abdul:2018:TTE:3173574.3174156}
+\bibinfo{author}{Abdul, A.}, \bibinfo{author}{Vermeulen, J.},
+  \bibinfo{author}{Wang, D.}, \bibinfo{author}{Lim, B.Y.},
+  \bibinfo{author}{Kankanhalli, M.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Trends and trajectories for explainable, accountable
+  and intelligible systems: An hci research agenda}, in:
+  \bibinfo{booktitle}{Proceedings of the 2018 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York,
+  NY, USA}. pp. \bibinfo{pages}{582:1--582:18}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3173574.3174156},
+  \DOIprefix\doi{10.1145/3173574.3174156}.
+%Type = Article
+\bibitem[{Aerts(2017)}]{aerts2017data}
+\bibinfo{author}{Aerts, H.J.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{Data science in radiology: a path forward}}.
+\newblock \bibinfo{journal}{Clinical Cancer Research} \bibinfo{volume}{24},
+  \bibinfo{pages}{2804}.
+%Type = Inproceedings
+\bibitem[{Aghaei et~al.(2018)Aghaei, Mirniaharikandehei, Hollingsworth, Stoug,
+  Pearce, Liu and Zheng}]{aghaei2018association}
+\bibinfo{author}{Aghaei, F.}, \bibinfo{author}{Mirniaharikandehei, S.},
+  \bibinfo{author}{Hollingsworth, A.B.}, \bibinfo{author}{Stoug, R.G.},
+  \bibinfo{author}{Pearce, M.}, \bibinfo{author}{Liu, H.},
+  \bibinfo{author}{Zheng, B.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Association between background parenchymal
+  enhancement of breast MRI and BIRADS rating change in the subsequent
+  screening}}, in: \bibinfo{booktitle}{Medical Imaging 2018: Imaging
+  Informatics for Healthcare, Research, and Applications},
+  \bibinfo{publisher}{SPIE}, \bibinfo{address}{Houston, Texas, United States}.
+  pp. \bibinfo{pages}{1--8}.
+%Type = Inproceedings
+\bibitem[{Alkhatib and Bernstein(2019)}]{Alkhatib:2019:SAT:3290605.3300760}
+\bibinfo{author}{Alkhatib, A.}, \bibinfo{author}{Bernstein, M.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Street-level algorithms: A theory at the gaps between
+  policy and decisions}, in: \bibinfo{booktitle}{Proceedings of the 2019 CHI
+  Conference on Human Factors in Computing Systems}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{530:1--530:13}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3290605.3300760},
+  \DOIprefix\doi{10.1145/3290605.3300760}.
+%Type = Article
+\bibitem[{Amershi et~al.(2014)Amershi, Cakmak, Knox and
+  Kulesza}]{amershi2014power}
+\bibinfo{author}{Amershi, S.}, \bibinfo{author}{Cakmak, M.},
+  \bibinfo{author}{Knox, W.B.}, \bibinfo{author}{Kulesza, T.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Power to the people: The role of humans in
+  interactive machine learning}.
+\newblock \bibinfo{journal}{AI Magazine} \bibinfo{volume}{35},
+  \bibinfo{pages}{105--120}.
+%Type = Inproceedings
+\bibitem[{Amershi et~al.(2019)Amershi, Weld, Vorvoreanu, Fourney, Nushi,
+  Collisson, Suh, Iqbal, Bennett, Inkpen, Teevan, Kikin-Gil and
+  Horvitz}]{amershi2019guidelines}
+\bibinfo{author}{Amershi, S.}, \bibinfo{author}{Weld, D.},
+  \bibinfo{author}{Vorvoreanu, M.}, \bibinfo{author}{Fourney, A.},
+  \bibinfo{author}{Nushi, B.}, \bibinfo{author}{Collisson, P.},
+  \bibinfo{author}{Suh, J.}, \bibinfo{author}{Iqbal, S.},
+  \bibinfo{author}{Bennett, P.N.}, \bibinfo{author}{Inkpen, K.},
+  \bibinfo{author}{Teevan, J.}, \bibinfo{author}{Kikin-Gil, R.},
+  \bibinfo{author}{Horvitz, E.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Guidelines for human-ai interaction}, in:
+  \bibinfo{booktitle}{Proceedings of the 2019 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York,
+  NY, USA}. pp. \bibinfo{pages}{3:1--3:13}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3290605.3300233},
+  \DOIprefix\doi{10.1145/3290605.3300233}.
+%Type = Article
+\bibitem[{Becker et~al.(2017)Becker, Marcon, Ghafoor, Wurnig, Frauenfelder and
+  Boss}]{becker2017deep}
+\bibinfo{author}{Becker, A.S.}, \bibinfo{author}{Marcon, M.},
+  \bibinfo{author}{Ghafoor, S.}, \bibinfo{author}{Wurnig, M.C.},
+  \bibinfo{author}{Frauenfelder, T.}, \bibinfo{author}{Boss, A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Deep learning in mammography: diagnostic accuracy of
+  a multipurpose image analysis software in the detection of breast cancer}.
+\newblock \bibinfo{journal}{Investigative radiology} \bibinfo{volume}{52},
+  \bibinfo{pages}{434--440}.
+%Type = Inproceedings
+\bibitem[{Bonham(2019)}]{Bonham:2019:ARS:3308557.3308726}
+\bibinfo{author}{Bonham, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Augmented reality simulation toward improving
+  therapeutic healthcare communication techniques}, in:
+  \bibinfo{booktitle}{Proceedings of the 24th International Conference on
+  Intelligent User Interfaces: Companion}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{161--162}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3308557.3308726},
+  \DOIprefix\doi{10.1145/3308557.3308726}.
+%Type = Article
+\bibitem[{Bray et~al.(2018)Bray, Ferlay, Soerjomataram, Siegel, Torre and
+  Jemal}]{doi:10.3322/caac.21492}
+\bibinfo{author}{Bray, F.}, \bibinfo{author}{Ferlay, J.},
+  \bibinfo{author}{Soerjomataram, I.}, \bibinfo{author}{Siegel, R.L.},
+  \bibinfo{author}{Torre, L.A.}, \bibinfo{author}{Jemal, A.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Global cancer statistics 2018: Globocan estimates of
+  incidence and mortality worldwide for 36 cancers in 185 countries}.
+\newblock \bibinfo{journal}{CA: A Cancer Journal for Clinicians}
+  \bibinfo{volume}{68}, \bibinfo{pages}{394--424}.
+\newblock \URLprefix
+  \url{https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.3322/caac.21492},
+  \DOIprefix\doi{10.3322/caac.21492},
+  \href{http://arxiv.org/abs/https://acsjournals.onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21492}{\tt
+  arXiv:https://acsjournals.onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21492}.
+%Type = Article
+\bibitem[{Bruno et~al.(2015)Bruno, Walker and
+  Abujudeh}]{bruno2015understanding}
+\bibinfo{author}{Bruno, M.A.}, \bibinfo{author}{Walker, E.A.},
+  \bibinfo{author}{Abujudeh, H.H.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Understanding and confronting our mistakes: the
+  epidemiology of error in radiology and strategies for error reduction}}.
+\newblock \bibinfo{journal}{Radiographics} \bibinfo{volume}{35},
+  \bibinfo{pages}{1668--1676}.
+%Type = Inproceedings
+\bibitem[{Cai et~al.(2019a)Cai, Jongejan and
+  Holbrook}]{Cai:2019:EEE:3301275.3302289}
+\bibinfo{author}{Cai, C.J.}, \bibinfo{author}{Jongejan, J.},
+  \bibinfo{author}{Holbrook, J.}, \bibinfo{year}{2019}a.
+\newblock \bibinfo{title}{The effects of example-based explanations in a
+  machine learning interface}, in: \bibinfo{booktitle}{Proceedings of the 24th
+  International Conference on Intelligent User Interfaces},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{258--262}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3301275.3302289},
+  \DOIprefix\doi{10.1145/3301275.3302289}.
+%Type = Inproceedings
+\bibitem[{Cai et~al.(2019b)Cai, Reif, Hegde, Hipp, Kim, Smilkov, Wattenberg,
+  Viegas, Corrado, Stumpe and Terry}]{Cai:2019:HTC:3290605.3300234}
+\bibinfo{author}{Cai, C.J.}, \bibinfo{author}{Reif, E.},
+  \bibinfo{author}{Hegde, N.}, \bibinfo{author}{Hipp, J.},
+  \bibinfo{author}{Kim, B.}, \bibinfo{author}{Smilkov, D.},
+  \bibinfo{author}{Wattenberg, M.}, \bibinfo{author}{Viegas, F.},
+  \bibinfo{author}{Corrado, G.S.}, \bibinfo{author}{Stumpe, M.C.},
+  \bibinfo{author}{Terry, M.}, \bibinfo{year}{2019}b.
+\newblock \bibinfo{title}{Human-centered tools for coping with imperfect
+  algorithms during medical decision-making}, in:
+  \bibinfo{booktitle}{Proceedings of the 2019 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York,
+  NY, USA}. pp. \bibinfo{pages}{4:1--4:14}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3290605.3300234},
+  \DOIprefix\doi{10.1145/3290605.3300234}.
+%Type = Masterthesis
+\bibitem[{Calisto(2017)}]{calisto2017mimbcdui}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Medical Imaging Multimodality Breast Cancer Diagnosis
+  User Interface}.
+\newblock Master's thesis. Instituto Superior T\'{e}cnico.
+  \bibinfo{address}{Avenida Rovisco Pais 1, 1049-001 Lisboa - Portugal (EU)}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.15187.02084},
+  \DOIprefix\doi{10.13140/RG.2.2.15187.02084}. \bibinfo{note}{a Medical Imaging
+  Tool for a Multimodality use of Breast Cancer Diagnosis on a User Interface.}
+%Type = Techreport
+\bibitem[{Calisto(2019a)}]{https://doi.org/10.13140/rg.2.2.16566.14403/1}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{year}{2019}a.
+\newblock \bibinfo{title}{Assistant Introduction: User Testing Guide For A
+  Comparison Between Multi-Modality and AI-Assisted Systems}.
+\newblock \bibinfo{type}{Technical Report}. Instituto Superior T\'{e}cnico.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.16566.14403/1},
+  \DOIprefix\doi{10.13140/RG.2.2.16566.14403/1}.
+%Type = Misc
+\bibitem[{Calisto(2019b)}]{https://doi.org/10.13140/rg.2.2.30479.43682}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{year}{2019}b.
+\newblock \bibinfo{title}{It-medex closing workshop: Towards touch-based
+  medical image diagnosis annotation}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.30479.43682},
+  \DOIprefix\doi{10.13140/RG.2.2.30479.43682}.
+%Type = Techreport
+\bibitem[{Calisto(2020a)}]{https://doi.org/10.13140/rg.2.2.14792.55049}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{Breast Cancer Medical Imaging Multimodality Lesion
+  Contours Annotating Method}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{116801}. Instituto
+  Superior T\'{e}cnico. \bibinfo{address}{Avenida Rovisco Pais 1, 1049-001
+  Lisboa - Portugal (EU)}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.14792.55049},
+  \DOIprefix\doi{10.13140/RG.2.2.14792.55049}. \bibinfo{note}{method and
+  process using a system to annotate and visualize masses and
+  microcalcifications of breast cancer lesions in a multimodality strategy.}
+%Type = Inproceedings
+\bibitem[{Calisto(2020b)}]{https://doi.org/10.13140/rg.2.2.16086.88649}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{Medical imaging multimodality annotating framework},
+  in: \bibinfo{booktitle}{PhD Open Days 2020}, \bibinfo{publisher}{Instituto
+  Superior T\'{e}cnico}. pp. \bibinfo{pages}{1--2}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.16086.88649},
+  \DOIprefix\doi{10.13140/RG.2.2.16086.88649}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2017)Calisto, Ferreira, Nascimento and
+  Gon\c{c}alves}]{Calisto:2017:TTM:3132272.3134111}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Ferreira, A.},
+  \bibinfo{author}{Nascimento, J.C.}, \bibinfo{author}{Gon\c{c}alves, D.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{Towards Touch-Based Medical Image Diagnosis
+  Annotation}}, in: \bibinfo{booktitle}{Int'l Conf. Interactive Surfaces and
+  Spaces (ISS)}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY,
+  USA}. pp. \bibinfo{pages}{390--395}.
+\newblock \DOIprefix\doi{10.1145/3132272.3134111}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2019a)Calisto, Lencastre, Nunes and
+  Nascimento}]{https://doi.org/10.13140/rg.2.2.25718.65606}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Lencastre, H.},
+  \bibinfo{author}{Nunes, N.J.}, \bibinfo{author}{Nascimento, J.C.},
+  \bibinfo{year}{2019}a.
+\newblock \bibinfo{title}{Breastscreening: Towards breast cancer clinical
+  decision support systems}, in: \bibinfo{booktitle}{National Science Summit
+  2019}, \bibinfo{publisher}{Funda\c{c}\~{a}o para a Ci\^{e}ncia e Tecnologia}.
+  pp. \bibinfo{pages}{1--2}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.25718.65606},
+  \DOIprefix\doi{10.13140/RG.2.2.25718.65606}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2019b)Calisto, Lencastre, Nunes and
+  Nascimento}]{https://doi.org/10.13140/rg.2.2.33421.59360}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Lencastre, H.},
+  \bibinfo{author}{Nunes, N.J.}, \bibinfo{author}{Nascimento, J.C.},
+  \bibinfo{year}{2019}b.
+\newblock \bibinfo{title}{Medical imaging diagnosis assistant: Ai-assisted
+  radiomics framework user validation}, in: \bibinfo{booktitle}{Keep In Touch
+  2019}, \bibinfo{publisher}{Instituto Superior T\'{e}cnico}. pp.
+  \bibinfo{pages}{1--2}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.33421.59360},
+  \DOIprefix\doi{10.13140/RG.2.2.33421.59360}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2018a)Calisto, Miraldo, Nunes and
+  Nascimento}]{https://doi.org/10.13140/rg.2.2.29816.70409}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Miraldo, P.},
+  \bibinfo{author}{Nunes, N.J.}, \bibinfo{author}{Nascimento, J.C.},
+  \bibinfo{year}{2018}a.
+\newblock \bibinfo{title}{Breastscreening: A multimodality diagnostic
+  assistant}, in: \bibinfo{booktitle}{LARSyS 2018 Annual Meeting},
+  \bibinfo{publisher}{Interactive Technologies Institute}. pp.
+  \bibinfo{pages}{1--2}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.29816.70409},
+  \DOIprefix\doi{10.13140/RG.2.2.29816.70409}.
+%Type = Misc
+\bibitem[{Calisto and
+  Nascimento(2018)}]{https://doi.org/10.13140/rg.2.2.36306.86725}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Nascimento, J.C.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Medical imaging multimodality breast cancer diagnosis
+  user interface: Breast imaging reporting and data system (bi-rads) survey
+  template file}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.36306.86725},
+  \DOIprefix\doi{10.13140/RG.2.2.36306.86725}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2020)Calisto, Nunes and
+  Nascimento}]{10.1145/3399715.3399744}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Nunes, N.},
+  \bibinfo{author}{Nascimento, J.C.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Breastscreening: On the use of multi-modality in
+  medical imaging diagnosis}, in: \bibinfo{booktitle}{Proceedings of the
+  International Conference on Advanced Visual Interfaces},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{1--5}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3399715.3399744},
+  \DOIprefix\doi{10.1145/3399715.3399744}.
+%Type = Inproceedings
+\bibitem[{Calisto et~al.(2018b)Calisto, Nunes, Nascimento and
+  Miraldo}]{https://doi.org/10.13140/rg.2.2.25412.68486}
+\bibinfo{author}{Calisto, F.M.}, \bibinfo{author}{Nunes, N.J.},
+  \bibinfo{author}{Nascimento, J.C.}, \bibinfo{author}{Miraldo, P.},
+  \bibinfo{year}{2018}b.
+\newblock \bibinfo{title}{Breastscreening: A multimodality diagnostic
+  assistant}, in: \bibinfo{booktitle}{National Science Summit 2018},
+  \bibinfo{publisher}{Funda\c{c}\~{a}o para a Ci\^{e}ncia e Tecnologia}. pp.
+  \bibinfo{pages}{1--2}.
+\newblock \URLprefix \url{http://rgdoi.net/10.13140/RG.2.2.25412.68486},
+  \DOIprefix\doi{10.13140/RG.2.2.25412.68486}.
+%Type = Article
+\bibitem[{Carneiro et~al.(2017)Carneiro, Nascimento and
+  Bradley}]{carneiro2017automated}
+\bibinfo{author}{Carneiro, G.}, \bibinfo{author}{Nascimento, J.},
+  \bibinfo{author}{Bradley, A.P.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{Automated Analysis of Unregistered Multi-View
+  Mammograms With Deep Learning}}.
+\newblock \bibinfo{journal}{Transactions on Medical Imaging}
+  \bibinfo{volume}{36}, \bibinfo{pages}{2355--2365}.
+%Type = Article
+\bibitem[{Challen et~al.(2019)Challen, Denny, Pitt, Gompels, Edwards and
+  Tsaneva-Atanasova}]{challen2019artificial}
+\bibinfo{author}{Challen, R.}, \bibinfo{author}{Denny, J.},
+  \bibinfo{author}{Pitt, M.}, \bibinfo{author}{Gompels, L.},
+  \bibinfo{author}{Edwards, T.}, \bibinfo{author}{Tsaneva-Atanasova, K.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Artificial intelligence, bias and clinical safety}.
+\newblock \bibinfo{journal}{BMJ Qual Saf} \bibinfo{volume}{28},
+  \bibinfo{pages}{231--237}.
+%Type = Article
+\bibitem[{Chatelain et~al.(2018)Chatelain, Sharma, Drukker, Papageorghiou and
+  Noble}]{chatelain2018evaluation}
+\bibinfo{author}{Chatelain, P.}, \bibinfo{author}{Sharma, H.},
+  \bibinfo{author}{Drukker, L.}, \bibinfo{author}{Papageorghiou, A.T.},
+  \bibinfo{author}{Noble, J.A.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Evaluation of gaze tracking calibration for
+  longitudinal biomedical imaging studies}.
+\newblock \bibinfo{journal}{IEEE transactions on cybernetics} ,
+  \bibinfo{pages}{1--11}.
+%Type = Article
+\bibitem[{Cheung(2017)}]{cheung2017integral}
+\bibinfo{author}{Cheung, Y.C.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Integral multimodality imaging in breast cancer
+  diagnosis}.
+\newblock \bibinfo{journal}{Ultrasound in Medicine and Biology}
+  \bibinfo{volume}{43}, \bibinfo{pages}{S17}.
+%Type = Article
+\bibitem[{Choy et~al.(2018)Choy, Khalilzadeh, Michalski, Do, Samir, Pianykh,
+  Geis, Pandharipande, Brink and Dreyer}]{choy2018current}
+\bibinfo{author}{Choy, G.}, \bibinfo{author}{Khalilzadeh, O.},
+  \bibinfo{author}{Michalski, M.}, \bibinfo{author}{Do, S.},
+  \bibinfo{author}{Samir, A.E.}, \bibinfo{author}{Pianykh, O.S.},
+  \bibinfo{author}{Geis, J.R.}, \bibinfo{author}{Pandharipande, P.V.},
+  \bibinfo{author}{Brink, J.A.}, \bibinfo{author}{Dreyer, K.J.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Current applications and future impact of machine
+  learning in radiology}.
+\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{288},
+  \bibinfo{pages}{318--328}.
+%Type = Inproceedings
+\bibitem[{De~Backere et~al.(2015)De~Backere, Verstichel, Van~den Bergh,
+  Elprama, Ongenae, De~Turck, Jacobs and
+  Coninx}]{DeBackere:2015:DPR:2826165.2826229}
+\bibinfo{author}{De~Backere, F.}, \bibinfo{author}{Verstichel, S.},
+  \bibinfo{author}{Van~den Bergh, J.}, \bibinfo{author}{Elprama, S.A.},
+  \bibinfo{author}{Ongenae, F.}, \bibinfo{author}{De~Turck, F.},
+  \bibinfo{author}{Jacobs, A.}, \bibinfo{author}{Coninx, K.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Discovery of the potential role of sensors in a
+  personal emergency response system: What can we learn from a single
+  workshop?}, in: \bibinfo{booktitle}{Proceedings of the 9th International
+  Conference on Pervasive Computing Technologies for Healthcare},
+  \bibinfo{publisher}{Institute for Computer Sciences, Social-Informatics and
+  Telecommunications Engineering}, \bibinfo{address}{Brussels, Belgium}. pp.
+  \bibinfo{pages}{330--333}.
+\newblock \URLprefix \url{http://dl.acm.org/citation.cfm?id=2826165.2826229}.
+%Type = Article
+\bibitem[{Delvaux et~al.(2017)Delvaux, Van~Thienen, Heselmans, de~Velde,
+  Ramaekers and Aertgeerts}]{delvaux2017effects}
+\bibinfo{author}{Delvaux, N.}, \bibinfo{author}{Van~Thienen, K.},
+  \bibinfo{author}{Heselmans, A.}, \bibinfo{author}{de~Velde, S.V.},
+  \bibinfo{author}{Ramaekers, D.}, \bibinfo{author}{Aertgeerts, B.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The effects of computerized clinical decision support
+  systems on laboratory test ordering: a systematic review}.
+\newblock \bibinfo{journal}{Archives of pathology \& laboratory medicine}
+  \bibinfo{volume}{141}, \bibinfo{pages}{585--595}.
+%Type = Inproceedings
+\bibitem[{Deng et~al.(2009)Deng, Dong, Socher, Li, Li and
+  Fei-Fei}]{deng2009imagenet}
+\bibinfo{author}{Deng, J.}, \bibinfo{author}{Dong, W.},
+  \bibinfo{author}{Socher, R.}, \bibinfo{author}{Li, L.J.},
+  \bibinfo{author}{Li, K.}, \bibinfo{author}{Fei-Fei, L.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Imagenet: A large-scale hierarchical image database},
+  in: \bibinfo{booktitle}{2009 IEEE conference on computer vision and pattern
+  recognition}, \bibinfo{organization}{Ieee}. pp. \bibinfo{pages}{248--255}.
+%Type = Article
+\bibitem[{DeSantis et~al.(2016)DeSantis, Fedewa, Goding~Sauer, Kramer, Smith
+  and Jemal}]{desantis2016breast}
+\bibinfo{author}{DeSantis, C.E.}, \bibinfo{author}{Fedewa, S.A.},
+  \bibinfo{author}{Goding~Sauer, A.}, \bibinfo{author}{Kramer, J.L.},
+  \bibinfo{author}{Smith, R.A.}, \bibinfo{author}{Jemal, A.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Breast cancer statistics, 2015: Convergence of
+  incidence rates between black and white women}.
+\newblock \bibinfo{journal}{CA: a cancer journal for clinicians}
+  \bibinfo{volume}{66}, \bibinfo{pages}{31--42}.
+%Type = Inproceedings
+\bibitem[{Eslami et~al.(2016)Eslami, Karahalios, Sandvig, Vaccaro, Rickman,
+  Hamilton and Kirlik}]{Eslami:2016:FIL:2858036.2858494}
+\bibinfo{author}{Eslami, M.}, \bibinfo{author}{Karahalios, K.},
+  \bibinfo{author}{Sandvig, C.}, \bibinfo{author}{Vaccaro, K.},
+  \bibinfo{author}{Rickman, A.}, \bibinfo{author}{Hamilton, K.},
+  \bibinfo{author}{Kirlik, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{First i "like" it, then i hide it: Folk theories of
+  social feeds}, in: \bibinfo{booktitle}{Proceedings of the 2016 CHI Conference
+  on Human Factors in Computing Systems}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{2371--2382}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2858036.2858494},
+  \DOIprefix\doi{10.1145/2858036.2858494}.
+%Type = Article
+\bibitem[{Esteva et~al.(2017)Esteva, Kuprel, Novoa, Ko, Swetter, Blau and
+  Thrun}]{esteva2017dermatologist}
+\bibinfo{author}{Esteva, A.}, \bibinfo{author}{Kuprel, B.},
+  \bibinfo{author}{Novoa, R.A.}, \bibinfo{author}{Ko, J.},
+  \bibinfo{author}{Swetter, S.M.}, \bibinfo{author}{Blau, H.M.},
+  \bibinfo{author}{Thrun, S.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Dermatologist-level classification of skin cancer
+  with deep neural networks}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{542},
+  \bibinfo{pages}{115}.
+%Type = Misc
+\bibitem[{Ferlay et~al.(2013)Ferlay, Soerjomataram, Ervik, Dikshit, Eser,
+  Mathers, Rebelo, Parkin, Forman and Bray}]{ferlay2013cancer}
+\bibinfo{author}{Ferlay, J.}, \bibinfo{author}{Soerjomataram, I.},
+  \bibinfo{author}{Ervik, M.}, \bibinfo{author}{Dikshit, R.},
+  \bibinfo{author}{Eser, S.}, \bibinfo{author}{Mathers, C.},
+  \bibinfo{author}{Rebelo, M.}, \bibinfo{author}{Parkin, D.},
+  \bibinfo{author}{Forman, D.}, \bibinfo{author}{Bray, F.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Cancer Incidence and Mortality Worldwide: IARC
+  Cancer Base No. 11. International Agency for Research on Cancer, France}}.
+%Type = Article
+\bibitem[{Gagnon et~al.(2014)Gagnon, Ghandour, Talla, Simonyan, Godin,
+  Labrecque, Ouimet and Rousseau}]{gagnon2014electronic}
+\bibinfo{author}{Gagnon, M.P.}, \bibinfo{author}{Ghandour, E.K.},
+  \bibinfo{author}{Talla, P.K.}, \bibinfo{author}{Simonyan, D.},
+  \bibinfo{author}{Godin, G.}, \bibinfo{author}{Labrecque, M.},
+  \bibinfo{author}{Ouimet, M.}, \bibinfo{author}{Rousseau, M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Electronic health record acceptance by physicians:
+  testing an integrated theoretical model}.
+\newblock \bibinfo{journal}{Journal of biomedical informatics}
+  \bibinfo{volume}{48}, \bibinfo{pages}{17--27}.
+%Type = Article
+\bibitem[{Gale et~al.(2017)Gale, Oakden-Rayner, Carneiro, Bradley and
+  Palmer}]{gale2017detecting}
+\bibinfo{author}{Gale, W.}, \bibinfo{author}{Oakden-Rayner, L.},
+  \bibinfo{author}{Carneiro, G.}, \bibinfo{author}{Bradley, A.P.},
+  \bibinfo{author}{Palmer, L.J.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Detecting hip fractures with radiologist-level
+  performance using deep neural networks}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1711.06504} .
+%Type = Inproceedings
+\bibitem[{Gambino et~al.(2019)Gambino, Kim and
+  Sundar}]{Gambino:2019:DDR:3290607.3312916}
+\bibinfo{author}{Gambino, A.}, \bibinfo{author}{Kim, J.},
+  \bibinfo{author}{Sundar, S.S.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Digital doctors and robot receptionists: User
+  attributes that predict acceptance of automation in healthcare facilities},
+  in: \bibinfo{booktitle}{Extended Abstracts of the 2019 CHI Conference on
+  Human Factors in Computing Systems}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{LBW0287:1--LBW0287:6}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3290607.3312916},
+  \DOIprefix\doi{10.1145/3290607.3312916}.
+%Type = Article
+\bibitem[{Ghahramani(2015)}]{ghahramani2015probabilistic}
+\bibinfo{author}{Ghahramani, Z.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Probabilistic machine learning and artificial
+  intelligence}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{521},
+  \bibinfo{pages}{452--459}.
+%Type = Article
+\bibitem[{Graffy et~al.(2019)Graffy, Liu, O’Connor, Summers and
+  Pickhardt}]{graffy2019automated}
+\bibinfo{author}{Graffy, P.M.}, \bibinfo{author}{Liu, J.},
+  \bibinfo{author}{O’Connor, S.}, \bibinfo{author}{Summers, R.M.},
+  \bibinfo{author}{Pickhardt, P.J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Automated segmentation and quantification of aortic
+  calcification at abdominal ct: application of a deep learning-based algorithm
+  to a longitudinal screening cohort}.
+\newblock \bibinfo{journal}{Abdominal Radiology} , \bibinfo{pages}{1--8}.
+%Type = Article
+\bibitem[{Greenspan et~al.(2016)Greenspan, van Ginneken and
+  Summers}]{greenspan2016guest}
+\bibinfo{author}{Greenspan, H.}, \bibinfo{author}{van Ginneken, B.},
+  \bibinfo{author}{Summers, R.M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{Guest editorial deep learning in medical imaging:
+  Overview and future promise of an exciting new technique}}.
+\newblock \bibinfo{journal}{Trans. Medical Imaging} \bibinfo{volume}{35},
+  \bibinfo{pages}{1153--1159}.
+%Type = Inproceedings
+\bibitem[{Grier(2015)}]{grier2015high}
+\bibinfo{author}{Grier, R.A.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{How high is high? a meta-analysis of nasa-tlx global
+  workload scores}, in: \bibinfo{booktitle}{Proceedings of the Human Factors
+  and Ergonomics Society Annual Meeting}, \bibinfo{organization}{SAGE
+  Publications Sage CA: Los Angeles, CA}. pp. \bibinfo{pages}{1727--1731}.
+%Type = Article
+\bibitem[{Gunning(2017)}]{gunning2017explainable}
+\bibinfo{author}{Gunning, D.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Explainable artificial intelligence (xai)}.
+\newblock \bibinfo{journal}{Defense Advanced Research Projects Agency (DARPA),
+  nd Web} .
+%Type = Inproceedings
+\bibitem[{Harboe et~al.(2012)Harboe, Minke, Ilea and
+  Huang}]{Harboe:2012:CSC:2145204.2145379}
+\bibinfo{author}{Harboe, G.}, \bibinfo{author}{Minke, J.},
+  \bibinfo{author}{Ilea, I.}, \bibinfo{author}{Huang, E.M.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Computer support for collaborative data analysis:
+  Augmenting paper affinity diagrams}, in: \bibinfo{booktitle}{Proceedings of
+  the ACM 2012 Conference on Computer Supported Cooperative Work},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{1179--1182}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2145204.2145379},
+  \DOIprefix\doi{10.1145/2145204.2145379}.
+%Type = Incollection
+\bibitem[{Harrington(2016)}]{harrington2016affinity}
+\bibinfo{author}{Harrington, H.J.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Affinity diagrams}, in: \bibinfo{booktitle}{The
+  Innovation Tools Handbook, Volume 2}. \bibinfo{publisher}{Productivity
+  Press}, pp. \bibinfo{pages}{45--54}.
+%Type = Article
+\bibitem[{Heinrich et~al.(2012)Heinrich, Jenkinson, Bhushan, Matin, Gleeson,
+  Brady and Schnabel}]{heinrich2012mind}
+\bibinfo{author}{Heinrich, M.P.}, \bibinfo{author}{Jenkinson, M.},
+  \bibinfo{author}{Bhushan, M.}, \bibinfo{author}{Matin, T.},
+  \bibinfo{author}{Gleeson, F.V.}, \bibinfo{author}{Brady, M.},
+  \bibinfo{author}{Schnabel, J.A.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{MIND: Modality independent neighbourhood descriptor
+  for multi-modal deformable registration}}.
+\newblock \bibinfo{journal}{Medical Image Analysis} \bibinfo{volume}{16},
+  \bibinfo{pages}{1423--1435}.
+%Type = Inproceedings
+\bibitem[{H{\o}iseth et~al.(2013a)H{\o}iseth, Giannakos, Alsos, Jaccheri and
+  Asheim}]{Hoiseth:2013:DHG:2485760.2485770}
+\bibinfo{author}{H{\o}iseth, M.}, \bibinfo{author}{Giannakos, M.N.},
+  \bibinfo{author}{Alsos, O.A.}, \bibinfo{author}{Jaccheri, L.},
+  \bibinfo{author}{Asheim, J.}, \bibinfo{year}{2013}a.
+\newblock \bibinfo{title}{Designing healthcare games and applications for
+  toddlers}, in: \bibinfo{booktitle}{Proceedings of the 12th International
+  Conference on Interaction Design and Children}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{137--146}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2485760.2485770},
+  \DOIprefix\doi{10.1145/2485760.2485770}.
+%Type = Inproceedings
+\bibitem[{H{\o}iseth et~al.(2013b)H{\o}iseth, Giannakos and
+  Jaccheri}]{Hoiseth:2013:RGD:2468356.2468436}
+\bibinfo{author}{H{\o}iseth, M.}, \bibinfo{author}{Giannakos, M.N.},
+  \bibinfo{author}{Jaccheri, L.}, \bibinfo{year}{2013}b.
+\newblock \bibinfo{title}{Research-derived guidelines for designing toddlers'
+  healthcare games}, in: \bibinfo{booktitle}{CHI '13 Extended Abstracts on
+  Human Factors in Computing Systems}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{451--456}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2468356.2468436},
+  \DOIprefix\doi{10.1145/2468356.2468436}.
+%Type = Article
+\bibitem[{Holzinger(2016)}]{holzinger2016interactive}
+\bibinfo{author}{Holzinger, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Interactive machine learning for health informatics:
+  when do we need the human-in-the-loop?}
+\newblock \bibinfo{journal}{Brain Informatics} \bibinfo{volume}{3},
+  \bibinfo{pages}{119--131}.
+%Type = Article
+\bibitem[{Holzinger et~al.(2020)Holzinger, Carrington and
+  M{\"u}ller}]{andreas2020measuring}
+\bibinfo{author}{Holzinger, A.}, \bibinfo{author}{Carrington, A.},
+  \bibinfo{author}{M{\"u}ller, H.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Measuring the quality of explanations: The system
+  causability scale (scs): Comparing human and machine explanations}.
+\newblock \bibinfo{journal}{Kunstliche intelligenz} \bibinfo{volume}{34},
+  \bibinfo{pages}{193--198}.
+%Type = Inproceedings
+\bibitem[{Holzinger et~al.(2018)Holzinger, Kieseberg, Weippl and
+  Tjoa}]{10.1007/978-3-319-99740-7_1}
+\bibinfo{author}{Holzinger, A.}, \bibinfo{author}{Kieseberg, P.},
+  \bibinfo{author}{Weippl, E.}, \bibinfo{author}{Tjoa, A.M.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Current advances, trends and challenges of machine
+  learning and knowledge extraction: From machine learning to explainable ai},
+  in: \bibinfo{editor}{Holzinger, A.}, \bibinfo{editor}{Kieseberg, P.},
+  \bibinfo{editor}{Tjoa, A.M.}, \bibinfo{editor}{Weippl, E.} (Eds.),
+  \bibinfo{booktitle}{Machine Learning and Knowledge Extraction},
+  \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{address}{Cham}. pp. \bibinfo{pages}{1--8}.
+%Type = Article
+\bibitem[{Holzinger et~al.(2019)Holzinger, Langs, Denk, Zatloukal and
+  Müller}]{https://doi.org/10.1002/widm.1312}
+\bibinfo{author}{Holzinger, A.}, \bibinfo{author}{Langs, G.},
+  \bibinfo{author}{Denk, H.}, \bibinfo{author}{Zatloukal, K.},
+  \bibinfo{author}{Müller, H.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Causability and explainability of artificial
+  intelligence in medicine}.
+\newblock \bibinfo{journal}{WIREs Data Mining and Knowledge Discovery}
+  \bibinfo{volume}{9}, \bibinfo{pages}{e1312}.
+\newblock \URLprefix
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.1312},
+  \DOIprefix\doi{https://doi.org/10.1002/widm.1312},
+  \href{http://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/widm.1312}{\tt
+  arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/widm.1312}.
+%Type = Article
+\bibitem[{Hosny et~al.(2018)Hosny, Parmar, Quackenbush, Schwartz and
+  Aerts}]{hosny2018artificial}
+\bibinfo{author}{Hosny, A.}, \bibinfo{author}{Parmar, C.},
+  \bibinfo{author}{Quackenbush, J.}, \bibinfo{author}{Schwartz, L.H.},
+  \bibinfo{author}{Aerts, H.J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Artificial intelligence in radiology}.
+\newblock \bibinfo{journal}{Nature Reviews Cancer} \bibinfo{volume}{18},
+  \bibinfo{pages}{500}.
+%Type = Inproceedings
+\bibitem[{Huang et~al.(2017)Huang, Liu, Van Der~Maaten and
+  Weinberger}]{huang2017densely}
+\bibinfo{author}{Huang, G.}, \bibinfo{author}{Liu, Z.}, \bibinfo{author}{Van
+  Der~Maaten, L.}, \bibinfo{author}{Weinberger, K.Q.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Densely connected convolutional networks}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pp. \bibinfo{pages}{4700--4708}.
+%Type = Article
+\bibitem[{Jodogne(2018)}]{Jodogne2018}
+\bibinfo{author}{Jodogne, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{The Orthanc Ecosystem for Medical Imaging}}.
+\newblock \bibinfo{journal}{Journal of Digital Imaging} \bibinfo{volume}{31},
+  \bibinfo{pages}{341--352}.
+\newblock \DOIprefix\doi{10.1007/s10278-018-0082-y}.
+%Type = Article
+\bibitem[{Ker et~al.(2018)Ker, Wang, Rao and Lim}]{ker2018deep}
+\bibinfo{author}{Ker, J.}, \bibinfo{author}{Wang, L.}, \bibinfo{author}{Rao,
+  J.}, \bibinfo{author}{Lim, T.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Deep learning applications in medical image
+  analysis}}.
+\newblock \bibinfo{journal}{Access} \bibinfo{volume}{6},
+  \bibinfo{pages}{9375--9389}.
+%Type = Article
+\bibitem[{Khairat et~al.(2018)Khairat, Marc, Crosby and
+  Al~Sanousi}]{khairat2018reasons}
+\bibinfo{author}{Khairat, S.}, \bibinfo{author}{Marc, D.},
+  \bibinfo{author}{Crosby, W.}, \bibinfo{author}{Al~Sanousi, A.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Reasons for physicians not adopting clinical decision
+  support systems: Critical analysis}.
+\newblock \bibinfo{journal}{JMIR medical informatics} \bibinfo{volume}{6},
+  \bibinfo{pages}{e24}.
+%Type = Article
+\bibitem[{Khan et~al.(2019)Khan, Islam, Jan, Din and Rodrigues}]{khan2019novel}
+\bibinfo{author}{Khan, S.}, \bibinfo{author}{Islam, N.}, \bibinfo{author}{Jan,
+  Z.}, \bibinfo{author}{Din, I.U.}, \bibinfo{author}{Rodrigues, J.J.C.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{A novel deep learning based framework for the
+  detection and classification of breast cancer using transfer learning}.
+\newblock \bibinfo{journal}{Pattern Recognition Letters} \bibinfo{volume}{125},
+  \bibinfo{pages}{1--6}.
+%Type = Inproceedings
+\bibitem[{Kocielnik et~al.(2019)Kocielnik, Amershi and
+  Bennett}]{Kocielnik:2019:YAI:3290605.3300641}
+\bibinfo{author}{Kocielnik, R.}, \bibinfo{author}{Amershi, S.},
+  \bibinfo{author}{Bennett, P.N.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Will you accept an imperfect ai?: Exploring designs
+  for adjusting end-user expectations of ai systems}, in:
+  \bibinfo{booktitle}{Proceedings of the 2019 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York,
+  NY, USA}. pp. \bibinfo{pages}{411:1--411:14}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3290605.3300641},
+  \DOIprefix\doi{10.1145/3290605.3300641}.
+%Type = Article
+\bibitem[{Kohli and Jha(2018)}]{kohli2018cad}
+\bibinfo{author}{Kohli, A.}, \bibinfo{author}{Jha, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Why cad failed in mammography}.
+\newblock \bibinfo{journal}{Journal of the American College of Radiology}
+  \bibinfo{volume}{15}, \bibinfo{pages}{535--537}.
+%Type = Article
+\bibitem[{Kooi et~al.(2017)Kooi, Litjens, Van~Ginneken, Gubern-M{\'e}rida,
+  S{\'a}nchez, Mann, den Heeten and Karssemeijer}]{kooi2017large}
+\bibinfo{author}{Kooi, T.}, \bibinfo{author}{Litjens, G.},
+  \bibinfo{author}{Van~Ginneken, B.}, \bibinfo{author}{Gubern-M{\'e}rida, A.},
+  \bibinfo{author}{S{\'a}nchez, C.I.}, \bibinfo{author}{Mann, R.},
+  \bibinfo{author}{den Heeten, A.}, \bibinfo{author}{Karssemeijer, N.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Large scale deep learning for computer aided
+  detection of mammographic lesions}.
+\newblock \bibinfo{journal}{Medical image analysis} \bibinfo{volume}{35},
+  \bibinfo{pages}{303--312}.
+%Type = Inproceedings
+\bibitem[{Kumar et~al.(2017)Kumar, Chung, Shaifee, Khalvati, Haider and
+  Wong}]{10.1007/978-3-319-59876-5_7}
+\bibinfo{author}{Kumar, D.}, \bibinfo{author}{Chung, A.G.},
+  \bibinfo{author}{Shaifee, M.J.}, \bibinfo{author}{Khalvati, F.},
+  \bibinfo{author}{Haider, M.A.}, \bibinfo{author}{Wong, A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Discovery radiomics for pathologically-proven
+  computed tomography lung cancer prediction}, in: \bibinfo{editor}{Karray,
+  F.}, \bibinfo{editor}{Campilho, A.}, \bibinfo{editor}{Cheriet, F.} (Eds.),
+  \bibinfo{booktitle}{Image Analysis and Recognition},
+  \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{address}{Cham}. pp. \bibinfo{pages}{54--62}.
+%Type = Article
+\bibitem[{Lakhani and Sundaram(2017)}]{lakhani2017deep}
+\bibinfo{author}{Lakhani, P.}, \bibinfo{author}{Sundaram, B.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Deep learning at chest radiography: automated
+  classification of pulmonary tuberculosis by using convolutional neural
+  networks}.
+\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{284},
+  \bibinfo{pages}{574--582}.
+%Type = Article
+\bibitem[{Lambin et~al.(2012)Lambin, Rios-Velazquez, Leijenaar, Carvalho, van
+  Stiphout, Granton, Zegers, Gillies, Boellard, Dekker
+  et~al.}]{lambin2012radiomics}
+\bibinfo{author}{Lambin, P.}, \bibinfo{author}{Rios-Velazquez, E.},
+  \bibinfo{author}{Leijenaar, R.}, \bibinfo{author}{Carvalho, S.},
+  \bibinfo{author}{van Stiphout, R.G.}, \bibinfo{author}{Granton, P.},
+  \bibinfo{author}{Zegers, C.M.}, \bibinfo{author}{Gillies, R.},
+  \bibinfo{author}{Boellard, R.}, \bibinfo{author}{Dekker, A.}, et~al.,
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Radiomics: extracting more information from medical
+  images using advanced feature analysis}}.
+\newblock \bibinfo{journal}{European Journal of Cancer} \bibinfo{volume}{48},
+  \bibinfo{pages}{441--446}.
+%Type = Article
+\bibitem[{Leung and Chen(2019)}]{leung2019health}
+\bibinfo{author}{Leung, L.}, \bibinfo{author}{Chen, C.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{E-health/m-health adoption and lifestyle
+  improvements: Exploring the roles of technology readiness, the
+  expectation-confirmation model, and health-related information activities}.
+\newblock \bibinfo{journal}{Telecommunications Policy} .
+%Type = Article
+\bibitem[{Lewis(2018)}]{lewis2018system}
+\bibinfo{author}{Lewis, J.R.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The system usability scale: past, present, and
+  future}.
+\newblock \bibinfo{journal}{International Journal of Human--Computer
+  Interaction} \bibinfo{volume}{34}, \bibinfo{pages}{577--590}.
+%Type = Article
+\bibitem[{Liang et~al.(2019)Liang, Tang, Huang, Yang, Zhong, Hu, Liu, Yuan and
+  Zhang}]{liang2019deep}
+\bibinfo{author}{Liang, S.}, \bibinfo{author}{Tang, F.},
+  \bibinfo{author}{Huang, X.}, \bibinfo{author}{Yang, K.},
+  \bibinfo{author}{Zhong, T.}, \bibinfo{author}{Hu, R.}, \bibinfo{author}{Liu,
+  S.}, \bibinfo{author}{Yuan, X.}, \bibinfo{author}{Zhang, Y.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Deep-learning-based detection and segmentation of
+  organs at risk in nasopharyngeal carcinoma computed tomographic images for
+  radiotherapy planning}.
+\newblock \bibinfo{journal}{European radiology} \bibinfo{volume}{29},
+  \bibinfo{pages}{1961--1967}.
+%Type = Article
+\bibitem[{Liikkanen(2017)}]{liikkanen2017data}
+\bibinfo{author}{Liikkanen, L.A.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The data-driven design era in professional web
+  design.}
+\newblock \bibinfo{journal}{interactions} \bibinfo{volume}{24},
+  \bibinfo{pages}{52--57}.
+%Type = Article
+\bibitem[{Lim et~al.(2019)Lim, Rogers and
+  Sebire}]{Lim:2019:DDI:3319806.3301427}
+\bibinfo{author}{Lim, B.}, \bibinfo{author}{Rogers, Y.},
+  \bibinfo{author}{Sebire, N.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Designing to distract: Can interactive technologies
+  reduce visitor anxiety in a children\&\#x0027;s hospital setting\&\#x003f;}.
+\newblock \bibinfo{journal}{ACM Trans. Comput.-Hum. Interact.}
+  \bibinfo{volume}{26}, \bibinfo{pages}{9:1--9:19}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/3301427},
+  \DOIprefix\doi{10.1145/3301427}.
+%Type = Article
+\bibitem[{Litjens et~al.(2017)Litjens, Kooi, Bejnordi, Setio, Ciompi,
+  Ghafoorian, Van Der~Laak, Van~Ginneken and S{\'a}nchez}]{litjens2017survey}
+\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Kooi, T.},
+  \bibinfo{author}{Bejnordi, B.E.}, \bibinfo{author}{Setio, A.A.A.},
+  \bibinfo{author}{Ciompi, F.}, \bibinfo{author}{Ghafoorian, M.},
+  \bibinfo{author}{Van Der~Laak, J.A.}, \bibinfo{author}{Van~Ginneken, B.},
+  \bibinfo{author}{S{\'a}nchez, C.I.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{A survey on deep learning in medical image analysis}.
+\newblock \bibinfo{journal}{Medical image analysis} \bibinfo{volume}{42},
+  \bibinfo{pages}{60--88}.
+%Type = Article
+\bibitem[{Maicas et~al.(2019)Maicas, Nguyen, Motlagh, Nascimento and
+  Carneiro}]{maicas2019unsupervised}
+\bibinfo{author}{Maicas, G.}, \bibinfo{author}{Nguyen, C.},
+  \bibinfo{author}{Motlagh, F.}, \bibinfo{author}{Nascimento, J.C.},
+  \bibinfo{author}{Carneiro, G.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Unsupervised task design to meta-train medical image
+  classifiers}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1907.07816} .
+%Type = Article
+\bibitem[{Mathews and Marc(2017)}]{mathews2017usability}
+\bibinfo{author}{Mathews, A.}, \bibinfo{author}{Marc, D.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Usability evaluation of laboratory information
+  systems}.
+\newblock \bibinfo{journal}{Journal of pathology informatics}
+  \bibinfo{volume}{8}.
+%Type = Inproceedings
+\bibitem[{McKay et~al.(2020)McKay, Makri, Chang and
+  Buchanan}]{10.1145/3343413.3377983}
+\bibinfo{author}{McKay, D.}, \bibinfo{author}{Makri, S.},
+  \bibinfo{author}{Chang, S.}, \bibinfo{author}{Buchanan, G.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{On birthing dancing stars: The need for bounded chaos
+  in information interaction}, in: \bibinfo{booktitle}{Proceedings of the 2020
+  Conference on Human Information Interaction and Retrieval},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. p. \bibinfo{pages}{292–302}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3343413.3377983},
+  \DOIprefix\doi{10.1145/3343413.3377983}.
+%Type = Article
+\bibitem[{McKinney et~al.(2020)McKinney, Sieniek, Godbole, Godwin, Antropova,
+  Ashrafian, Back, Chesus, Corrado, Darzi et~al.}]{mckinney2020international}
+\bibinfo{author}{McKinney, S.M.}, \bibinfo{author}{Sieniek, M.},
+  \bibinfo{author}{Godbole, V.}, \bibinfo{author}{Godwin, J.},
+  \bibinfo{author}{Antropova, N.}, \bibinfo{author}{Ashrafian, H.},
+  \bibinfo{author}{Back, T.}, \bibinfo{author}{Chesus, M.},
+  \bibinfo{author}{Corrado, G.C.}, \bibinfo{author}{Darzi, A.}, et~al.,
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{International evaluation of an ai system for breast
+  cancer screening}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{577},
+  \bibinfo{pages}{89--94}.
+%Type = Inproceedings
+\bibitem[{Mehta et~al.(2018)Mehta, Mercan, Bartlett, Weaver, Elmore and
+  Shapiro}]{10.1007/978-3-030-00934-2_99}
+\bibinfo{author}{Mehta, S.}, \bibinfo{author}{Mercan, E.},
+  \bibinfo{author}{Bartlett, J.}, \bibinfo{author}{Weaver, D.},
+  \bibinfo{author}{Elmore, J.G.}, \bibinfo{author}{Shapiro, L.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Y-net: Joint segmentation and classification for
+  diagnosis of breast biopsy images}, in: \bibinfo{editor}{Frangi, A.F.},
+  \bibinfo{editor}{Schnabel, J.A.}, \bibinfo{editor}{Davatzikos, C.},
+  \bibinfo{editor}{Alberola-L{\'o}pez, C.}, \bibinfo{editor}{Fichtinger, G.}
+  (Eds.), \bibinfo{booktitle}{Medical Image Computing and Computer Assisted
+  Intervention -- MICCAI 2018}, \bibinfo{publisher}{Springer International
+  Publishing}, \bibinfo{address}{Cham}. pp. \bibinfo{pages}{893--901}.
+%Type = Article
+\bibitem[{Middleton et~al.(2016)Middleton, Sittig and
+  Wright}]{middleton2016clinical}
+\bibinfo{author}{Middleton, B.}, \bibinfo{author}{Sittig, D.},
+  \bibinfo{author}{Wright, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Clinical decision support: a 25 year retrospective
+  and a 25 year vision}.
+\newblock \bibinfo{journal}{Yearbook of medical informatics}
+  \bibinfo{volume}{25}, \bibinfo{pages}{S103--S116}.
+%Type = Article
+\bibitem[{Miglioretti et~al.(2007)Miglioretti, Smith-Bindman, Abraham, Brenner,
+  Carney, Bowles, Buist and Elmore}]{miglioretti2007radiologist}
+\bibinfo{author}{Miglioretti, D.L.}, \bibinfo{author}{Smith-Bindman, R.},
+  \bibinfo{author}{Abraham, L.}, \bibinfo{author}{Brenner, R.J.},
+  \bibinfo{author}{Carney, P.A.}, \bibinfo{author}{Bowles, E.J.A.},
+  \bibinfo{author}{Buist, D.S.}, \bibinfo{author}{Elmore, J.G.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Radiologist characteristics associated with
+  interpretive performance of diagnostic mammography}.
+\newblock \bibinfo{journal}{Journal of the National Cancer Institute}
+  \bibinfo{volume}{99}, \bibinfo{pages}{1854--1863}.
+%Type = Article
+\bibitem[{Miller(2018)}]{miller2018explanation}
+\bibinfo{author}{Miller, T.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Explanation in artificial intelligence: Insights from
+  the social sciences}.
+\newblock \bibinfo{journal}{Artificial Intelligence} .
+%Type = Article
+\bibitem[{Mohamed et~al.(2018)Mohamed, Berg, Peng, Luo, Jankowitz and
+  Wu}]{mohamed2018deep}
+\bibinfo{author}{Mohamed, A.A.}, \bibinfo{author}{Berg, W.A.},
+  \bibinfo{author}{Peng, H.}, \bibinfo{author}{Luo, Y.},
+  \bibinfo{author}{Jankowitz, R.C.}, \bibinfo{author}{Wu, S.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{A deep learning method for classifying mammographic
+  breast density categories}.
+\newblock \bibinfo{journal}{Medical physics} \bibinfo{volume}{45},
+  \bibinfo{pages}{314--321}.
+%Type = Article
+\bibitem[{Mullie and Afilalo(2019)}]{mullie2019coreslicer}
+\bibinfo{author}{Mullie, L.}, \bibinfo{author}{Afilalo, J.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Coreslicer: a web toolkit for analytic morphomics}.
+\newblock \bibinfo{journal}{BMC medical imaging} \bibinfo{volume}{19},
+  \bibinfo{pages}{15}.
+%Type = Article
+\bibitem[{Murtaza et~al.(2019)Murtaza, Shuib, Wahab, Mujtaba, Nweke, Al-garadi,
+  Zulfiqar, Raza and Azmi}]{murtaza2019deep}
+\bibinfo{author}{Murtaza, G.}, \bibinfo{author}{Shuib, L.},
+  \bibinfo{author}{Wahab, A.W.A.}, \bibinfo{author}{Mujtaba, G.},
+  \bibinfo{author}{Nweke, H.F.}, \bibinfo{author}{Al-garadi, M.A.},
+  \bibinfo{author}{Zulfiqar, F.}, \bibinfo{author}{Raza, G.},
+  \bibinfo{author}{Azmi, N.A.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Deep learning-based breast cancer classification
+  through medical imaging modalities: state of the art and research
+  challenges}.
+\newblock \bibinfo{journal}{Artificial Intelligence Review} ,
+  \bibinfo{pages}{1--66}.
+%Type = Inproceedings
+\bibitem[{Pacheco and Martinho(2019)}]{pacheco2019alignment}
+\bibinfo{author}{Pacheco, A.C.}, \bibinfo{author}{Martinho, C.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Alignment of player and non-player character
+  assertiveness levels}, in: \bibinfo{booktitle}{Proceedings of the AAAI
+  Conference on Artificial Intelligence and Interactive Digital Entertainment},
+  \bibinfo{publisher}{AAAI}, \bibinfo{address}{Georgia Institute of Technology,
+  Atlanta, Georgia, USA}. pp. \bibinfo{pages}{181--187}.
+%Type = Inproceedings
+\bibitem[{Paradeda et~al.(2019)Paradeda, Ferreira, Oliveira, Martinho and
+  Paiva}]{10.1145/3311350.3347162}
+\bibinfo{author}{Paradeda, R.}, \bibinfo{author}{Ferreira, M.J.},
+  \bibinfo{author}{Oliveira, R.}, \bibinfo{author}{Martinho, C.},
+  \bibinfo{author}{Paiva, A.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{The role of assertiveness in a storytelling game with
+  persuasive robotic non-player characters}, in:
+  \bibinfo{booktitle}{Proceedings of the Annual Symposium on Computer-Human
+  Interaction in Play}, \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}. p.
+  \bibinfo{pages}{453–465}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3311350.3347162},
+  \DOIprefix\doi{10.1145/3311350.3347162}.
+%Type = Article
+\bibitem[{Park et~al.(2015)Park, Chen and
+  Rudkin}]{Park:2015:TOA:2737795.2656213}
+\bibinfo{author}{Park, S.Y.}, \bibinfo{author}{Chen, Y.},
+  \bibinfo{author}{Rudkin, S.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Technological and organizational adaptation of emr
+  implementation in an emergency department}.
+\newblock \bibinfo{journal}{ACM Trans. Comput.-Hum. Interact.}
+  \bibinfo{volume}{22}, \bibinfo{pages}{1:1--1:24}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2656213},
+  \DOIprefix\doi{10.1145/2656213}.
+%Type = Inproceedings
+\bibitem[{Raghu et~al.(2019)Raghu, Zhang, Kleinberg and
+  Bengio}]{NEURIPS2019_eb1e7832}
+\bibinfo{author}{Raghu, M.}, \bibinfo{author}{Zhang, C.},
+  \bibinfo{author}{Kleinberg, J.}, \bibinfo{author}{Bengio, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Transfusion: Understanding transfer learning for
+  medical imaging}, in: \bibinfo{editor}{Wallach, H.},
+  \bibinfo{editor}{Larochelle, H.}, \bibinfo{editor}{Beygelzimer, A.},
+  \bibinfo{editor}{d\textquotesingle Alch\'{e}-Buc, F.}, \bibinfo{editor}{Fox,
+  E.}, \bibinfo{editor}{Garnett, R.} (Eds.), \bibinfo{booktitle}{Advances in
+  Neural Information Processing Systems}, \bibinfo{publisher}{Curran
+  Associates, Inc.}. pp. \bibinfo{pages}{3347--3357}.
+\newblock \URLprefix
+  \url{https://proceedings.neurips.cc/paper/2019/file/eb1e78328c46506b46a4ac4a1e378b91-Paper.pdf}.
+%Type = Article
+\bibitem[{Raja et~al.(2017)Raja, Patrick, Elder and Tsoi}]{raja2017machine}
+\bibinfo{author}{Raja, K.}, \bibinfo{author}{Patrick, M.},
+  \bibinfo{author}{Elder, J.T.}, \bibinfo{author}{Tsoi, L.C.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Machine learning workflow to enhance predictions of
+  adverse drug reactions (adrs) through drug-gene interactions: Application to
+  drugs for cutaneous diseases}.
+\newblock \bibinfo{journal}{Scientific reports} \bibinfo{volume}{7},
+  \bibinfo{pages}{3690}.
+%Type = Article
+\bibitem[{Ramkumar et~al.(2017)Ramkumar, Stappers, Niessen, Adebahr,
+  Schimek-Jasch, Nestle and Song}]{ramkumar2017using}
+\bibinfo{author}{Ramkumar, A.}, \bibinfo{author}{Stappers, P.J.},
+  \bibinfo{author}{Niessen, W.J.}, \bibinfo{author}{Adebahr, S.},
+  \bibinfo{author}{Schimek-Jasch, T.}, \bibinfo{author}{Nestle, U.},
+  \bibinfo{author}{Song, Y.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{Using GOMS and NASA-TLX to Evaluate Human--Computer
+  Interaction Process in Interactive Segmentation}}.
+\newblock \bibinfo{journal}{International Journal of Human-Computer
+  Interaction} \bibinfo{volume}{33}, \bibinfo{pages}{123--134}.
+%Type = Inproceedings
+\bibitem[{Ronneberger et~al.(2015)Ronneberger, Fischer and
+  Brox}]{ronneberger2015u}
+\bibinfo{author}{Ronneberger, O.}, \bibinfo{author}{Fischer, P.},
+  \bibinfo{author}{Brox, T.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{U-net: Convolutional networks for biomedical image
+  segmentation}, in: \bibinfo{booktitle}{International Conference on Medical
+  image computing and computer-assisted intervention},
+  \bibinfo{organization}{Springer}. pp. \bibinfo{pages}{234--241}.
+%Type = Article
+\bibitem[{Rosset et~al.(2004)Rosset, Spadola and Ratib}]{rosset2004osirix}
+\bibinfo{author}{Rosset, A.}, \bibinfo{author}{Spadola, L.},
+  \bibinfo{author}{Ratib, O.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{{OsiriX: an open-source software for navigating in
+  multidimensional DICOM images}}.
+\newblock \bibinfo{journal}{Journal of Digital Imaging} \bibinfo{volume}{17},
+  \bibinfo{pages}{205--216}.
+%Type = Article
+\bibitem[{Ruddle et~al.(2016)Ruddle, Thomas, Randell, Quirke and
+  Treanor}]{Ruddle:2016:DEI:2872314.2834117}
+\bibinfo{author}{Ruddle, R.A.}, \bibinfo{author}{Thomas, R.G.},
+  \bibinfo{author}{Randell, R.}, \bibinfo{author}{Quirke, P.},
+  \bibinfo{author}{Treanor, D.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The design and evaluation of interfaces for
+  navigating gigapixel images in digital pathology}.
+\newblock \bibinfo{journal}{ACM Trans. Comput.-Hum. Interact.}
+  \bibinfo{volume}{23}, \bibinfo{pages}{5:1--5:29}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2834117},
+  \DOIprefix\doi{10.1145/2834117}.
+%Type = Article
+\bibitem[{Saadatmand et~al.(2015)Saadatmand, Bretveld, Siesling and
+  Tilanus-Linthorst}]{saadatmand2015influence}
+\bibinfo{author}{Saadatmand, S.}, \bibinfo{author}{Bretveld, R.},
+  \bibinfo{author}{Siesling, S.}, \bibinfo{author}{Tilanus-Linthorst, M.M.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Influence of tumour stage at breast cancer detection
+  on survival in modern times: population based study in 173 797 patients}.
+\newblock \bibinfo{journal}{Bmj} \bibinfo{volume}{351}, \bibinfo{pages}{h4901}.
+%Type = Book
+\bibitem[{Samek et~al.(2019)Samek, Montavon, Vedaldi, Hansen and
+  Muller}]{10.5555/3365202}
+\bibinfo{author}{Samek, W.}, \bibinfo{author}{Montavon, G.},
+  \bibinfo{author}{Vedaldi, A.}, \bibinfo{author}{Hansen, L.K.},
+  \bibinfo{author}{Muller, K.R.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Explainable AI: Interpreting, Explaining and
+  Visualizing Deep Learning}.
+\newblock \bibinfo{edition}{1st} ed., \bibinfo{publisher}{Springer Publishing
+  Company, Incorporated}.
+%Type = Article
+\bibitem[{Sarcevic et~al.(2012)Sarcevic, Marsic and
+  Burd}]{Sarcevic:2012:TET:2240156.2240161}
+\bibinfo{author}{Sarcevic, A.}, \bibinfo{author}{Marsic, I.},
+  \bibinfo{author}{Burd, R.S.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Teamwork errors in trauma resuscitation}.
+\newblock \bibinfo{journal}{ACM Trans. Comput.-Hum. Interact.}
+  \bibinfo{volume}{19}, \bibinfo{pages}{13:1--13:30}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2240156.2240161},
+  \DOIprefix\doi{10.1145/2240156.2240161}.
+%Type = Article
+\bibitem[{Savage(2019)}]{Savage2019}
+\bibinfo{author}{Savage, N.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Digital assistants aid disease diagnosis}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{573},
+  \bibinfo{pages}{S98--S99}.
+\newblock \URLprefix \url{https://doi.org/10.1038/d41586-019-02870-4},
+  \DOIprefix\doi{10.1038/d41586-019-02870-4}.
+%Type = Inproceedings
+\bibitem[{Schaekermann et~al.(2019a)Schaekermann, Beaton, Habib, Lim, Larson
+  and Law}]{10.1145/3308560.3317085}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Beaton, G.},
+  \bibinfo{author}{Habib, M.}, \bibinfo{author}{Lim, A.},
+  \bibinfo{author}{Larson, K.}, \bibinfo{author}{Law, E.},
+  \bibinfo{year}{2019}a.
+\newblock \bibinfo{title}{Capturing expert arguments from medical adjudication
+  discussions in a machine-readable format}, in: \bibinfo{booktitle}{Companion
+  Proceedings of The 2019 World Wide Web Conference},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. p. \bibinfo{pages}{1131–1137}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3308560.3317085},
+  \DOIprefix\doi{10.1145/3308560.3317085}.
+%Type = Article
+\bibitem[{Schaekermann et~al.(2019b)Schaekermann, Beaton, Habib, Lim, Larson
+  and Law}]{10.1145/3359178}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Beaton, G.},
+  \bibinfo{author}{Habib, M.}, \bibinfo{author}{Lim, A.},
+  \bibinfo{author}{Larson, K.}, \bibinfo{author}{Law, E.},
+  \bibinfo{year}{2019}b.
+\newblock \bibinfo{title}{Understanding expert disagreement in medical data
+  analysis through structured adjudication}.
+\newblock \bibinfo{journal}{Proc. ACM Hum.-Comput. Interact.}
+  \bibinfo{volume}{3}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3359178},
+  \DOIprefix\doi{10.1145/3359178}.
+%Type = Inproceedings
+\bibitem[{Schaekermann et~al.(2020a)Schaekermann, Beaton, Sanoubari, Lim,
+  Larson and Law}]{10.1145/3313831.3376506}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Beaton, G.},
+  \bibinfo{author}{Sanoubari, E.}, \bibinfo{author}{Lim, A.},
+  \bibinfo{author}{Larson, K.}, \bibinfo{author}{Law, E.},
+  \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{Ambiguity-aware ai assistants for medical data
+  analysis}, in: \bibinfo{booktitle}{Proceedings of the 2020 CHI Conference on
+  Human Factors in Computing Systems}, \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA}. p.
+  \bibinfo{pages}{1–14}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3313831.3376506},
+  \DOIprefix\doi{10.1145/3313831.3376506}.
+%Type = Inproceedings
+\bibitem[{Schaekermann et~al.(2020b)Schaekermann, Cai, Huang and
+  Sayres}]{10.1145/3313831.3376290}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Cai, C.J.},
+  \bibinfo{author}{Huang, A.E.}, \bibinfo{author}{Sayres, R.},
+  \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{Expert discussions improve comprehension of difficult
+  cases in medical image assessment}, in: \bibinfo{booktitle}{Proceedings of
+  the 2020 CHI Conference on Human Factors in Computing Systems},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. p. \bibinfo{pages}{1–13}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3313831.3376290},
+  \DOIprefix\doi{10.1145/3313831.3376290}.
+%Type = Article
+\bibitem[{Schaekermann et~al.(2019c)Schaekermann, Hammel, Terry, Ali, Liu,
+  Basham, Campana, Chen, Ji, Krause, Corrado, Peng, Webster, Law and
+  Sayres}]{10.1167/tvst.8.6.40}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Hammel, N.},
+  \bibinfo{author}{Terry, M.}, \bibinfo{author}{Ali, T.K.},
+  \bibinfo{author}{Liu, Y.}, \bibinfo{author}{Basham, B.},
+  \bibinfo{author}{Campana, B.}, \bibinfo{author}{Chen, W.},
+  \bibinfo{author}{Ji, X.}, \bibinfo{author}{Krause, J.},
+  \bibinfo{author}{Corrado, G.S.}, \bibinfo{author}{Peng, L.},
+  \bibinfo{author}{Webster, D.R.}, \bibinfo{author}{Law, E.},
+  \bibinfo{author}{Sayres, R.}, \bibinfo{year}{2019}c.
+\newblock \bibinfo{title}{{Remote Tool-Based Adjudication for Grading Diabetic
+  Retinopathy}}.
+\newblock \bibinfo{journal}{Translational Vision Science \& Technology}
+  \bibinfo{volume}{8}, \bibinfo{pages}{40--40}.
+\newblock \URLprefix \url{https://doi.org/10.1167/tvst.8.6.40},
+  \DOIprefix\doi{10.1167/tvst.8.6.40},
+  \href{http://arxiv.org/abs/https://arvojournals.org/arvo/content\_public/journal/tvst/938258/i2164-2591-8-6-40.pdf}{\tt
+  arXiv:https://arvojournals.org/arvo/content\_public/journal/tvst/938258/i2164-2591-8-6-40.pdf}.
+%Type = Inproceedings
+\bibitem[{Schaekermann et~al.(2018)Schaekermann, Law, Larson and
+  Lim}]{schaekermann2018expert}
+\bibinfo{author}{Schaekermann, M.}, \bibinfo{author}{Law, E.},
+  \bibinfo{author}{Larson, K.}, \bibinfo{author}{Lim, A.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Expert disagreement in sequential labeling: A case
+  study on adjudication in medical time series analysis.}, in:
+  \bibinfo{booktitle}{SAD/CrowdBias@ HCOMP}, pp. \bibinfo{pages}{55--66}.
+%Type = Misc
+\bibitem[{{Schaekermann, Mike}(2020)}]{SchaekermannMike2020}
+\bibinfo{author}{{Schaekermann, Mike}}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Human-ai interaction in the presence of ambiguity:
+  From deliberation-based labeling to ambiguity-aware ai}.
+\newblock \URLprefix \url{http://hdl.handle.net/10012/16284}.
+%Type = Inproceedings
+\bibitem[{Seifabadi et~al.(2019)Seifabadi, Cheng, Malik, Kishimoto, Wiskin,
+  Munasinghe, Negussie, Bakhutashvili, Krishna, Choyke
+  et~al.}]{seifabadi2019correlation}
+\bibinfo{author}{Seifabadi, R.}, \bibinfo{author}{Cheng, A.},
+  \bibinfo{author}{Malik, B.}, \bibinfo{author}{Kishimoto, S.},
+  \bibinfo{author}{Wiskin, J.}, \bibinfo{author}{Munasinghe, J.},
+  \bibinfo{author}{Negussie, A.H.}, \bibinfo{author}{Bakhutashvili, I.},
+  \bibinfo{author}{Krishna, M.C.}, \bibinfo{author}{Choyke, P.}, et~al.,
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Correlation of ultrasound tomography to mri and
+  pathology for the detection of prostate cancer}, in:
+  \bibinfo{booktitle}{Medical Imaging 2019: Ultrasonic Imaging and Tomography},
+  \bibinfo{organization}{International Society for Optics and Photonics}. p.
+  \bibinfo{pages}{109550C}.
+%Type = Article
+\bibitem[{Shah et~al.(2019)Shah, Kendall, Khozin, Goosen, Hu, Laramie, Ringel
+  and Schork}]{shah2019artificial}
+\bibinfo{author}{Shah, P.}, \bibinfo{author}{Kendall, F.},
+  \bibinfo{author}{Khozin, S.}, \bibinfo{author}{Goosen, R.},
+  \bibinfo{author}{Hu, J.}, \bibinfo{author}{Laramie, J.},
+  \bibinfo{author}{Ringel, M.}, \bibinfo{author}{Schork, N.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Artificial intelligence and machine learning in
+  clinical development: a translational perspective}.
+\newblock \bibinfo{journal}{NPJ digital medicine} \bibinfo{volume}{2},
+  \bibinfo{pages}{69}.
+%Type = Article
+\bibitem[{Shin et~al.(2016)Shin, Roth, Gao, Lu, Xu, Nogues, Yao, Mollura and
+  Summers}]{shin2016deep}
+\bibinfo{author}{Shin, H.C.}, \bibinfo{author}{Roth, H.R.},
+  \bibinfo{author}{Gao, M.}, \bibinfo{author}{Lu, L.}, \bibinfo{author}{Xu,
+  Z.}, \bibinfo{author}{Nogues, I.}, \bibinfo{author}{Yao, J.},
+  \bibinfo{author}{Mollura, D.}, \bibinfo{author}{Summers, R.M.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Deep convolutional neural networks for computer-aided
+  detection: Cnn architectures, dataset characteristics and transfer learning}.
+\newblock \bibinfo{journal}{IEEE transactions on medical imaging}
+  \bibinfo{volume}{35}, \bibinfo{pages}{1285--1298}.
+%Type = Inproceedings
+\bibitem[{Sonntag et~al.(2012)Sonntag, Schulz, Reuschling and
+  Galarraga}]{Sonntag:2012:RMD:2166966.2167031}
+\bibinfo{author}{Sonntag, D.}, \bibinfo{author}{Schulz, C.},
+  \bibinfo{author}{Reuschling, C.}, \bibinfo{author}{Galarraga, L.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Radspeech's mobile dialogue system for radiologists},
+  in: \bibinfo{booktitle}{Proceedings of the 2012 ACM International Conference
+  on Intelligent User Interfaces}, \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{317--318}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2166966.2167031},
+  \DOIprefix\doi{10.1145/2166966.2167031}.
+%Type = Article
+\bibitem[{Sorace et~al.(2018)Sorace, Partridge, Li, Virostko, Barnes, Hippe,
+  Huang and Yankeelov}]{sorace2018distinguishing}
+\bibinfo{author}{Sorace, A.G.}, \bibinfo{author}{Partridge, S.C.},
+  \bibinfo{author}{Li, X.}, \bibinfo{author}{Virostko, J.},
+  \bibinfo{author}{Barnes, S.L.}, \bibinfo{author}{Hippe, D.S.},
+  \bibinfo{author}{Huang, W.}, \bibinfo{author}{Yankeelov, T.E.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Distinguishing benign and malignant breast tumors:
+  preliminary comparison of kinetic modeling approaches using
+  multi-institutional dynamic contrast-enhanced mri data from the international
+  breast mr consortium 6883 trial}.
+\newblock \bibinfo{journal}{Journal of Medical Imaging} \bibinfo{volume}{5},
+  \bibinfo{pages}{011019}.
+%Type = Inproceedings
+\bibitem[{Subramonyam et~al.(2019)Subramonyam, Drucker and
+  Adar}]{10.1145/3290605.3300628}
+\bibinfo{author}{Subramonyam, H.}, \bibinfo{author}{Drucker, S.M.},
+  \bibinfo{author}{Adar, E.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Affinity lens: Data-assisted affinity diagramming
+  with augmented reality}, in: \bibinfo{booktitle}{Proceedings of the 2019 CHI
+  Conference on Human Factors in Computing Systems},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{1--13}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3290605.3300628},
+  \DOIprefix\doi{10.1145/3290605.3300628}.
+%Type = Inproceedings
+\bibitem[{Sultanum et~al.(2018)Sultanum, Brudno, Wigdor and
+  Chevalier}]{Sultanum:2018:MTP:3173574.3173996}
+\bibinfo{author}{Sultanum, N.}, \bibinfo{author}{Brudno, M.},
+  \bibinfo{author}{Wigdor, D.}, \bibinfo{author}{Chevalier, F.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{More Text Please! Understanding and Supporting the
+  Use of Visualization for Clinical Text Overview}}, in:
+  \bibinfo{booktitle}{Conf. Human Factors in Computing Systems (CHI)},
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}. pp.
+  \bibinfo{pages}{1--13}.
+\newblock \DOIprefix\doi{10.1145/3173574.3173996}.
+%Type = Book
+\bibitem[{Szolovits(2019)}]{szolovits2019artificial}
+\bibinfo{author}{Szolovits, P.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Artificial intelligence in medicine}.
+\newblock \bibinfo{publisher}{Routledge}.
+%Type = Article
+\bibitem[{{Tjoa} and {Guan}(2020)}]{9233366}
+\bibinfo{author}{{Tjoa}, E.}, \bibinfo{author}{{Guan}, C.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A survey on explainable artificial intelligence
+  (xai): Toward medical xai}.
+\newblock \bibinfo{journal}{IEEE Transactions on Neural Networks and Learning
+  Systems} , \bibinfo{pages}{1--21}\DOIprefix\doi{10.1109/TNNLS.2020.3027314}.
+%Type = Article
+\bibitem[{Topol(2019)}]{topol2019high}
+\bibinfo{author}{Topol, E.J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{High-performance medicine: the convergence of human
+  and artificial intelligence}.
+\newblock \bibinfo{journal}{Nature medicine} \bibinfo{volume}{25},
+  \bibinfo{pages}{44}.
+%Type = Article
+\bibitem[{Torre et~al.(2015)Torre, Bray, Siegel, Ferlay, Lortet-Tieulent and
+  Jemal}]{torre2015global}
+\bibinfo{author}{Torre, L.A.}, \bibinfo{author}{Bray, F.},
+  \bibinfo{author}{Siegel, R.L.}, \bibinfo{author}{Ferlay, J.},
+  \bibinfo{author}{Lortet-Tieulent, J.}, \bibinfo{author}{Jemal, A.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Global cancer statistics, 2012}.
+\newblock \bibinfo{journal}{CA: a cancer journal for clinicians}
+  \bibinfo{volume}{65}, \bibinfo{pages}{87--108}.
+%Type = Inproceedings
+\bibitem[{Tyllinen et~al.(2016)Tyllinen, Kaipio, L\"{a}\"{a}veri and
+  Nieminen}]{Tyllinen:2016:WNN:2858036.2858570}
+\bibinfo{author}{Tyllinen, M.}, \bibinfo{author}{Kaipio, J.},
+  \bibinfo{author}{L\"{a}\"{a}veri, T.}, \bibinfo{author}{Nieminen, M.H.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{We need numbers!: Heuristic evaluation during
+  demonstrations (hed) for measuring usability in it system procurement}, in:
+  \bibinfo{booktitle}{Proceedings of the 2016 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York,
+  NY, USA}. pp. \bibinfo{pages}{4129--4141}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/2858036.2858570},
+  \DOIprefix\doi{10.1145/2858036.2858570}.
+%Type = Article
+\bibitem[{Urban et~al.(2017)Urban, Ziegler, Lewis, Hafey, Sadow, Van~den
+  Abbeele and Harris}]{urban2017lesiontracker}
+\bibinfo{author}{Urban, T.}, \bibinfo{author}{Ziegler, E.},
+  \bibinfo{author}{Lewis, R.}, \bibinfo{author}{Hafey, C.},
+  \bibinfo{author}{Sadow, C.}, \bibinfo{author}{Van~den Abbeele, A.D.},
+  \bibinfo{author}{Harris, G.J.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{LesionTracker: Extensible open-source zero-footprint
+  web viewer for cancer imaging research and clinical trials}}.
+\newblock \bibinfo{journal}{Cancer Research} \bibinfo{volume}{77},
+  \bibinfo{pages}{119--122}.
+%Type = Article
+\bibitem[{Venkatesh et~al.(2016)Venkatesh, Thong and Xu}]{venkatesh2016unified}
+\bibinfo{author}{Venkatesh, V.}, \bibinfo{author}{Thong, J.Y.},
+  \bibinfo{author}{Xu, X.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Unified theory of acceptance and use of technology: A
+  synthesis and the road ahead}.
+\newblock \bibinfo{journal}{Journal of the association for Information Systems}
+  \bibinfo{volume}{17}, \bibinfo{pages}{328--376}.
+%Type = Article
+\bibitem[{Wagner et~al.(2015)Wagner, Beckmann, Wullich, Seggewies, Ries,
+  B{\"u}rkle and Prokosch}]{wagner2015analysis}
+\bibinfo{author}{Wagner, S.}, \bibinfo{author}{Beckmann, M.W.},
+  \bibinfo{author}{Wullich, B.}, \bibinfo{author}{Seggewies, C.},
+  \bibinfo{author}{Ries, M.}, \bibinfo{author}{B{\"u}rkle, T.},
+  \bibinfo{author}{Prokosch, H.U.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{Analysis and classification of oncology activities
+  on the way to workflow based single source documentation in clinical
+  information systems}}.
+\newblock \bibinfo{journal}{Medical Informatics and Decision Making}
+  \bibinfo{volume}{15}, \bibinfo{pages}{1--13}.
+%Type = Article
+\bibitem[{Waite et~al.(2017)Waite, Kolla, Jeudy, Legasto, Macknik,
+  Martinez-Conde, Krupinski and Reede}]{waite2017tired}
+\bibinfo{author}{Waite, S.}, \bibinfo{author}{Kolla, S.},
+  \bibinfo{author}{Jeudy, J.}, \bibinfo{author}{Legasto, A.},
+  \bibinfo{author}{Macknik, S.L.}, \bibinfo{author}{Martinez-Conde, S.},
+  \bibinfo{author}{Krupinski, E.A.}, \bibinfo{author}{Reede, D.L.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Tired in the reading room: the influence of fatigue
+  in radiology}.
+\newblock \bibinfo{journal}{Journal of the American College of Radiology}
+  \bibinfo{volume}{14}, \bibinfo{pages}{191--197}.
+%Type = Article
+\bibitem[{Wang et~al.(2016)Wang, Yang, Cai, Tan, Jin and
+  Li}]{wang2016discrimination}
+\bibinfo{author}{Wang, J.}, \bibinfo{author}{Yang, X.}, \bibinfo{author}{Cai,
+  H.}, \bibinfo{author}{Tan, W.}, \bibinfo{author}{Jin, C.},
+  \bibinfo{author}{Li, L.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Discrimination of breast cancer with
+  microcalcifications on mammography by deep learning}.
+\newblock \bibinfo{journal}{Scientific reports} \bibinfo{volume}{6},
+  \bibinfo{pages}{27327}.
+%Type = Article
+\bibitem[{Weese and Lorenz(2016)}]{weese2016four}
+\bibinfo{author}{Weese, J.}, \bibinfo{author}{Lorenz, C.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{Four challenges in medical image analysis from an
+  industrial perspective}}.
+\newblock \bibinfo{journal}{Medical Image Analysis} \bibinfo{volume}{33},
+  \bibinfo{pages}{44--49}.
+%Type = Article
+\bibitem[{Welch et~al.(2016)Welch, Prorok, O’Malley and
+  Kramer}]{welch2016breast}
+\bibinfo{author}{Welch, H.G.}, \bibinfo{author}{Prorok, P.C.},
+  \bibinfo{author}{O’Malley, A.J.}, \bibinfo{author}{Kramer, B.S.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Breast-cancer tumor size, overdiagnosis, and
+  mammography screening effectiveness}.
+\newblock \bibinfo{journal}{New England Journal of Medicine}
+  \bibinfo{volume}{375}, \bibinfo{pages}{1438--1447}.
+%Type = Article
+\bibitem[{Wernli et~al.(2019)Wernli, Ichikawa, Kerlikowske, Buist, Brandzel,
+  Bush, Johnson, Henderson, Nekhlyudov, Onega et~al.}]{wernli2019surveillance}
+\bibinfo{author}{Wernli, K.J.}, \bibinfo{author}{Ichikawa, L.},
+  \bibinfo{author}{Kerlikowske, K.}, \bibinfo{author}{Buist, D.S.},
+  \bibinfo{author}{Brandzel, S.D.}, \bibinfo{author}{Bush, M.},
+  \bibinfo{author}{Johnson, D.}, \bibinfo{author}{Henderson, L.M.},
+  \bibinfo{author}{Nekhlyudov, L.}, \bibinfo{author}{Onega, T.}, et~al.,
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Surveillance breast mri and mammography: comparison
+  in women with a personal history of breast cancer}.
+\newblock \bibinfo{journal}{Radiology} , \bibinfo{pages}{182475}.
+%Type = Inproceedings
+\bibitem[{Wilde et~al.(2017)Wilde, Vallg\r{a}rda and
+  Tomico}]{10.1145/3025453.3025873}
+\bibinfo{author}{Wilde, D.}, \bibinfo{author}{Vallg\r{a}rda, A.},
+  \bibinfo{author}{Tomico, O.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Embodied design ideation methods: Analysing the power
+  of estrangement}, in: \bibinfo{booktitle}{Proceedings of the 2017 CHI
+  Conference on Human Factors in Computing Systems},
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}. p. \bibinfo{pages}{5158–5170}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3025453.3025873},
+  \DOIprefix\doi{10.1145/3025453.3025873}.
+%Type = Inproceedings
+\bibitem[{Wobbrock et~al.(2011)Wobbrock, Findlater, Gergle and
+  Higgins}]{Wobbrock:2011:ART:1978942.1978963}
+\bibinfo{author}{Wobbrock, J.O.}, \bibinfo{author}{Findlater, L.},
+  \bibinfo{author}{Gergle, D.}, \bibinfo{author}{Higgins, J.J.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The aligned rank transform for nonparametric
+  factorial analyses using only anova procedures}, in:
+  \bibinfo{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY,
+  USA}. pp. \bibinfo{pages}{143--146}.
+\newblock \URLprefix \url{http://doi.acm.org/10.1145/1978942.1978963},
+  \DOIprefix\doi{10.1145/1978942.1978963}.
+%Type = Article
+\bibitem[{Wolf et~al.(2005)Wolf, Vetter, Wegner, B{\"o}ttger, Nolden,
+  Sch{\"o}binger, Hastenteufel, Kunert and Meinzer}]{wolf2005medical}
+\bibinfo{author}{Wolf, I.}, \bibinfo{author}{Vetter, M.},
+  \bibinfo{author}{Wegner, I.}, \bibinfo{author}{B{\"o}ttger, T.},
+  \bibinfo{author}{Nolden, M.}, \bibinfo{author}{Sch{\"o}binger, M.},
+  \bibinfo{author}{Hastenteufel, M.}, \bibinfo{author}{Kunert, T.},
+  \bibinfo{author}{Meinzer, H.P.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{{The medical imaging interaction toolkit}}.
+\newblock \bibinfo{journal}{Medical Image Analysis} \bibinfo{volume}{9},
+  \bibinfo{pages}{594--604}.
+%Type = Phdthesis
+\bibitem[{Yang(2019)}]{yang2019profiling}
+\bibinfo{author}{Yang, Q.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Profiling Artificial Intelligence as a Material for
+  User Experience Design}.
+\newblock Ph.D. thesis. Microsoft Research.
+%Type = Inproceedings
+\bibitem[{Yang et~al.(2018)Yang, Banovic and
+  Zimmerman}]{10.1145/3173574.3173704}
+\bibinfo{author}{Yang, Q.}, \bibinfo{author}{Banovic, N.},
+  \bibinfo{author}{Zimmerman, J.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Mapping machine learning advances from hci research
+  to reveal starting places for design innovation}, in:
+  \bibinfo{booktitle}{Proceedings of the 2018 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{1--11}.
+\newblock \URLprefix \url{https://doi.org/10.1145/3173574.3173704},
+  \DOIprefix\doi{10.1145/3173574.3173704}.
+%Type = Inproceedings
+\bibitem[{Yang et~al.(2016)Yang, Zimmerman, Steinfeld, Carey and
+  Antaki}]{10.1145/2858036.2858373}
+\bibinfo{author}{Yang, Q.}, \bibinfo{author}{Zimmerman, J.},
+  \bibinfo{author}{Steinfeld, A.}, \bibinfo{author}{Carey, L.},
+  \bibinfo{author}{Antaki, J.F.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Investigating the heart pump implant decision
+  process: Opportunities for decision support tools to help}, in:
+  \bibinfo{booktitle}{Proceedings of the 2016 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}. p.
+  \bibinfo{pages}{4477–4488}.
+\newblock \URLprefix \url{https://doi.org/10.1145/2858036.2858373},
+  \DOIprefix\doi{10.1145/2858036.2858373}.
+%Type = Article
+\bibitem[{Yu et~al.(2020)Yu, Lin, Lin, Lin, Wu and
+  Chang}]{info:doi/10.2196/18585}
+\bibinfo{author}{Yu, C.S.}, \bibinfo{author}{Lin, Y.J.}, \bibinfo{author}{Lin,
+  C.H.}, \bibinfo{author}{Lin, S.Y.}, \bibinfo{author}{Wu, J.L.},
+  \bibinfo{author}{Chang, S.S.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Development of an online health care assessment for
+  preventive medicine: A machine learning approach}.
+\newblock \bibinfo{journal}{J Med Internet Res} \bibinfo{volume}{22},
+  \bibinfo{pages}{e18585}.
+\newblock \URLprefix \url{https://doi.org/10.2196/18585},
+  \DOIprefix\doi{10.2196/18585}.
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2016)Zhang, Pina and Fogarty}]{10.1145/2858036.2858360}
+\bibinfo{author}{Zhang, X.}, \bibinfo{author}{Pina, L.R.},
+  \bibinfo{author}{Fogarty, J.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Examining unlock journaling with diaries and
+  reminders for in situ self-report in health and wellness}, in:
+  \bibinfo{booktitle}{Proceedings of the 2016 CHI Conference on Human Factors
+  in Computing Systems}, \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}. p.
+  \bibinfo{pages}{5658–5664}.
+\newblock \URLprefix \url{https://doi.org/10.1145/2858036.2858360},
+  \DOIprefix\doi{10.1145/2858036.2858360}.
+
+\end{thebibliography}
