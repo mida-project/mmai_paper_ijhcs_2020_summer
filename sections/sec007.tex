@@ -64,7 +64,7 @@ Finally, we successfully measure the impact of expectation-setting intervention 
 While Human-AI interaction tools have traditionally been used to improve algorithms, we found that {\it AI-Assisted} mechanisms empowered clinicians in the medical imaging diagnosis.
 More precisely, a medical {\it Assistant} can make itself more understandable to clinicians by providing some kind of explanation ({\it heatmaps}).
 
-In this work, we assume a setting in which either the Human or AI (or both) has ground-truth knowledge of how to diagnose the patient and classify the breast severity (BIRADS).
+In this work, we assume a setting in which either the Human or AI (or both) has ground-truth knowledge of how to diagnose the patient and classify the breast severity (BI-RADS).
 With the {\it accept} and {\it reject} features, both Human and AI are learning together about the diagnostic task.
 Such Human-AI interaction will improve clinicians' transparency as a result of this bidirectional process.
 Nevertheless, our findings suggest new ways of improving AI transparency~\cite{Cai:2019:EEE:3301275.3302289}.
@@ -72,7 +72,6 @@ Nevertheless, our findings suggest new ways of improving AI transparency~\cite{C
 Quantitative results, such as usability ({\it i.e.}, SUS) or workload ({\it i.e.}, NASA-TLX), point to improvements in terms of satisfaction~\cite{Bonham:2019:ARS:3308557.3308726} and acceptance~\cite{Gambino:2019:DDR:3290607.3312916, Sonntag:2012:RMD:2166966.2167031}, as well as a positive {\it workflow} impact~\cite{DeBackere:2015:DPR:2826165.2826229}.
 The magnitude of the SUS usability measure employed by clinicians to describe their experience with our {\it Assistant} showed ``good'' usability~\cite{info:doi/10.2196/18585} ({\it i.e.}, SUS $>$ 68) and improvements on the workload values.
 We also achieve improvements in performance and accuracy.
-
 From our results, we can point that the time performance was almost 2x faster with the {\it Assistant} setup and more than 2x accurate.
 Apart from being passive recipients of the machine outputs, clinicians could play an active role, improving data for the learning process on a Human-AI collaboration.
 Indeed, this interactive collaboration could help clinicians from mental models and increasing assistant transparency~\cite{amershi2014power, Cai:2019:HTC:3290605.3300234, Eslami:2016:FIL:2858036.2858494}.
@@ -87,10 +86,10 @@ With these two implemented outcomes, we could cover some of the hazards on our {
 
 Since clinicians prefer to see the lesion with context, we need to provide color information regarding both the shape and size of the lesions (Figure \ref{fig:fig006}).
 Therefore, we chose this technique to support the lesion visualization use case.
-Also, the {\it AI-Assistant}, for a given patient, provides a BIRADS classification for each modality.
+Also, the {\it AI-Assistant}, for a given patient, provides a BI-RADS classification for each modality.
 However, from the interviews, we realized it was paramount to provide a "global" classification of the exam, instead of modality based.
 This means that our {\it AI-Assistant} must provide the worst-case classification as the global score.
-Furthermore, the image-modality assigned to the highest BIRADS should be displayed in the UI, providing the "explainability" ({\it 6.2 Explain} button of Figure \ref{fig:fig005}) of such a global score.
+Furthermore, the image-modality assigned to the highest BI-RADS should be displayed in the UI, providing the "explainability" ({\it 6.2 Explain} button of Figure \ref{fig:fig005}) of such a global score.
 
 In short, {\it BreastScreening} uses large amounts of data, due to its multi-view and multi-modality nature.
 The very first step on both quantitative and qualitative studies was to extract from our study information a set of analysis - a design-thinking method, which was crucial to perform data collection and cluster information.

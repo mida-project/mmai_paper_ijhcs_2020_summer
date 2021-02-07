@@ -63,22 +63,6 @@
 \RequirePackage{booktabs,makecell,multirow,array,colortbl,dcolumn,stfloats}
 \RequirePackage{xspace,xstring,footmisc}
 \RequirePackage[svgnames,dvipsnames]{xcolor}
-
-\RequirePackage[colorlinks]{hyperref}
-\colorlet{scolor}{black}
-\colorlet{hscolor}{DarkSlateGrey}
-\hypersetup{%
-  pdfcreator={LaTeX3; cas-sc.cls; hyperref.sty},
-  pdfproducer={pdfTeX;},
-  linkcolor={hscolor},
-  urlcolor={hscolor},
-  citecolor={hscolor},
-  filecolor={hscolor},
-  menucolor={hscolor},
-}
-% \AtEndDocument{\hypersetup
-%   {pdftitle={\csuse{__short_title:}},
-%   pdfauthor={\csuse{__short_authors:}}}}
  
  \let\comma\@empty
 \let\tnotesep\@empty
@@ -168,6 +152,22 @@
   headsep=12pt,
   footskip=12pt,
 ]{geometry}
+
+\RequirePackage[colorlinks]{hyperref}
+\colorlet{scolor}{black}
+\colorlet{hscolor}{DarkSlateGrey}
+\hypersetup{%
+  pdfcreator={LaTeX3; cas-sc.cls; hyperref.sty},
+  pdfproducer={pdfTeX;},
+  linkcolor={hscolor},
+  urlcolor={hscolor},
+  citecolor={hscolor},
+  filecolor={hscolor},
+  menucolor={hscolor},
+}
+% \AtEndDocument{\hypersetup
+%   {pdftitle={\csuse{__short_title:}},
+%   pdfauthor={\csuse{__short_authors:}}}}
 
 
 \endinput

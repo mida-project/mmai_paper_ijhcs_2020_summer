@@ -65,7 +65,7 @@ Figure \ref{fig:fig005} can also be subdivided in the following categories:
 
 The first assistant view is the {\it 4. List of Patients Views}.
 With this view, clinicians can quickly choose the respective {\it 4.1. List of Patients}.
-Using the BIRADS functionality ({\it 6.3.1.~Physician Severity}), clinicians can now classify (Figure \ref{fig:fig005}) the severity of the breast lesion for each patient.
+Using the BI-RADS functionality ({\it 6.3.1.~Physician Severity}), clinicians can now classify (Figure \ref{fig:fig005}) the severity of the breast lesion for each patient.
 This {\it 4.1. List of Patients} contains only the most important and required information, avoiding the excess of data ({\it e.g.}, gender, access activity on the file, etc), typically shown on these systems.
 Therefore, improving the medical imaging ({\it MID}) visualization across the radiology room.
 The {\it 4.5. Study List Tabs} also allows clinicians to switch between diagnosed patients, {\it 5. Medical Imaging Diagnosis Views}, and {\it 4. List of Patients Views}.
@@ -86,7 +86,7 @@ The {\it 5.1. Viewports} are displayed at the right, after the {\it 5.2. Toolbar
 
 Clinicians can probe for lesion patterns via the {\it 5.1.~Viewports} and process the image by using the {\it 5.2.~Toolbars} features ({\it MID}).
 Each time the {\it 5.2.~Toolbars} functionalities are activated, the clinician needs to perform a simple and easy interaction with the medical image to manipulate it as desired.
-Using the {\it 5.2.~Toolbars} on the {\it 5.1.~Viewports}, the clinician can locate the lesions and classify its severity (BIRADS).
+Using the {\it 5.2.~Toolbars} on the {\it 5.1.~Viewports}, the clinician can locate the lesions and classify its severity (BI-RADS).
 
 \subsubsection{Assistant}
 
@@ -98,7 +98,7 @@ However, integrating a deep neural network (DNN) needs special attention.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.90\columnwidth]{fig005}
-\caption{Our {\it BreastScreening-AI} assistant provides several features regarding the basics of {\it Radiomics}. From there, we will be able to validate our DenseNet BIRADS classifier along with clinicians.}
+\caption{Our {\it BreastScreening-AI} assistant provides several features regarding the basics of {\it Radiomics}. From there, we will be able to validate our DenseNet BI-RADS classifier along with clinicians.}
 \label{fig:fig005}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -110,25 +110,26 @@ Specifically, we fine-tune the DNN using supervised learning.
 Only afterwards, the pre-trained DenseNet is incorporated into the UI.
 
 Our DenseNet takes medical images as an input and outputs the severity probability.
-The input consists of images ({\it i.e.} MG, US and MRI slices) with the corresponding label (i.e. the BIRADS) that is previously classified by an expert.
+The input consists of images ({\it i.e.} MG, US and MRI slices) with the corresponding label ({\it i.e.}, the BI-RADS) that is previously classified by an expert.
 The output consists of having five nodes in the last layer of the DNN.
 Each node is assigned to a given class that corresponds to each BI-RADS score.
 After this stage, we have conditions for the integration, since now the DenseNet is tuned to perform the classification in unseen test images.
 The classification is fast, being tailored for an online diagnosis.
-When several modalities ({\it MID} and {\it CRD}) are correctly used (regarding the {\it 5.3.~Modality~Selection} on a {\it Multimodality} view), the clinician can find more accurately the right severity classification, as concluded in Section \ref{sec:results}.
-For the {\it 6.3.~Reject} option, the physician will have the opportunity to insert ({\it CRD}) the proposed BIRADS on a drag-and-drop menu ({\it 6.3.1.~Physician Severity}) of severity options. Both {\it MID} and {\it CRD} goals are supporting our {\bf RQ1} question.
+When several modalities ({\it MID} and {\it CRD}) are correctly used (regarding the {\it 5.3.~Modality~Selection} on a {\it Multimodality} view), the clinician can find more accurately the right severity classification, as concluded in Section~\ref{sec:results}.
+For the {\it 6.3.~Reject} option, the physician will have the opportunity to insert ({\it CRD}) the proposed BI-RADS on a drag-and-drop menu ({\it 6.3.1.~Physician Severity}) of severity options.
+Both {\it MID} and {\it CRD} goals are supporting our {\bf RQ1} question.
 
 \subsubsection{Explainability}
 
 Finally, the clinician may look for the {\it 6.2.~Explain} feature  by looking at the generated heatmaps (Figure~\ref{fig:fig006}).
-The generation of the above maps come from the following information: (i) the area ({\it Lesion Size}) of the lesion that comes from the delineation process, (ii) the circularity/sharpness ({\it Lesion Shape}) that can be computed from the annotation in (i), and (iii) the BIRADS score automatically provided by the DenseNet ({\it i.e.}, AI assistant).
+The generation of the above maps come from the following information: (i) the area ({\it Lesion Size}) of the lesion that comes from the delineation process, (ii) the circularity/sharpness ({\it Lesion Shape}) that can be computed from the annotation in (i), and (iii) the BI-RADS score automatically provided by the DenseNet ({\it i.e.}, AI assistant).
 The {\it ED} design goal is performed as above described helping to answer to research questions {\bf RQ2} and {\bf RQ3}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\columnwidth]{fig006}
-\caption{On {\it 6.2.~Explain}, the assistant will pop-up several {\it heatmaps}. The {\it heatmaps} represent two different scales: (a) {\it Shape}; and (b) {\it Size} of the lesion. First, the model computes the BIRADS using the DenseNet classification. Second, the model computes the lesion circularity (top scale) and size (bottom scale) and associate it to the colors regarding both circularity/size and BIRADS.}
+\caption{On {\it 6.2.~Explain}, the assistant will pop-up several {\it heatmaps}. The {\it heatmaps} represent two different scales: (a) {\it Shape}; and (b) {\it Size} of the lesion. First, the model computes the BI-RADS using the DenseNet classification. Second, the model computes the lesion circularity (top scale) and size (bottom scale) and associate it to the colors regarding both circularity/size and BI-RADS.}
 \label{fig:fig006}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

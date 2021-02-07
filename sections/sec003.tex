@@ -1,13 +1,13 @@
 \section{Design Keys}
 \label{sec:environment}
 
-The process that leads to the development of the {\it BreastScreening-AI} prototype~\cite{https://doi.org/10.13140/rg.2.2.29816.70409} included a holistic understanding of the clinical context of {\it radiomics} in breast screening.
-We were specifically interested in the use of several modalities and {\it AI assistance} to detect and classify lesions.
+Patient classification and providing accurately that information to clinicians, as well as resolving the queries coming from the AI outputs are the main design keys for our solution.
+In order to cope with the remaining challenges, our human-centered approach revealed to be useful into understanding the medical workflow to properly address the clinician's needs.
+Specifically, the process that leads to the development of the {\it BreastScreening-AI} prototype~\cite{https://doi.org/10.13140/rg.2.2.29816.70409} included a holistic understanding across the clinical context of {\it radiomics} in breast screening.
+The simulated AI assistant instantiates the presented design keys by providing human-interpretable rationals for its outputs.
+We were especially interested in the use of several modalities and {\it AI assistance} to detect and classify lesions.
 We conducted quantitative and qualitative studies in nine health institutions to understand the medical practices surrounding {\it radiomics} in breast cancer, including the classifications of the lesion severity using the BI-RADS~\cite{https://doi.org/10.13140/rg.2.2.36306.86725} score.
-
-TODO
-
-\clearpage
+Next, we will describe the workflow practices that lead to design implications of our assistant, as well as design goals and design methods.
 
 \subsection{Radiology Room}
 
@@ -48,8 +48,13 @@ In the next section, we will describe the relation between workflow stages of me
 \subsection{Clinicians Procedures}
 \label{sec:workflow}
 
-TODO
+In this paper, we provide a modular guideline for study planning, design and implementation within the area of HCI research in medical imaging.
+Furthermore, our research work allows to acquire the structured description of the clinical workflow within the breast cancer domain and to consider this information for own study design or to perform a comparison of different studies.
+The investigation model and the corresponding clinical procedures can be used further to create new knowledge bases of HCI assessment in medical imaging.
 
+\hfill
+
+\noindent
 The main workflow of the radiology room~\cite{wagner2015analysis} (Figure~\ref{fig:fig002}) usually comprises four different paths that correspond to different observed image acquisition procedures:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,8 +65,6 @@ The main workflow of the radiology room~\cite{wagner2015analysis} (Figure~\ref{f
 \item \textbf{Procedure 4} all three modalities (MG, US and DCE-MRI) are acquired simultaneously.
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
@@ -122,7 +125,7 @@ In this section, we investigate how {\it AI-Assisted} methods could be integrate
 Our purpose is to help mitigating breast cancer diagnosis, while meeting overall healthcare design goals.
 The main design goals are closely related to the research insights and the challenges of the previous section, namely:
 (1) a collection of a ground truth annotations, namely masses in all imaging modalities and calcification lesions in MG (for both CC and MLO views);
-(2) classification of the lesion severity using the BIRADS~\cite{aghaei2018association};
+(2) classification of the lesion severity using the BI-RADS~\cite{aghaei2018association};
 (3) categorization of the breast tissues (dense vs non-dense);
 (4) clinical co-varia\-bles, such as personal and family records; and
 (5) visualizations for clinical summary which is crucial for a proper diagnosis and to perform patient follow-up.
